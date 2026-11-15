@@ -1,0 +1,35 @@
+{
+  "id": "./",
+  "name": "SAT Sprint — daily SAT trainer",
+  "short_name": "SAT Sprint",
+  "description": "A simple daily trainer for the digital SAT: study notes, formulas, flashcards, timed practice, score history, and a 30-minute active-time goal.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2563eb",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

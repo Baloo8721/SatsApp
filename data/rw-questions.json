@@ -1,0 +1,992 @@
+[
+  {
+    "id": "rw-words-in-context-1",
+    "skill": "words-in-context",
+    "skillLabel": "Words in Context",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The community garden was originally a vacant lot. After volunteers cleared the debris and planted vegetables, the space became a ___ for neighbors to meet and share produce.</p>",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "gathering place",
+      "obstacle",
+      "expense",
+      "mystery"
+    ],
+    "answer": 0,
+    "explanation": "Neighbors meet and share produce there, so the space functions as a gathering place."
+  },
+  {
+    "id": "rw-words-in-context-2",
+    "skill": "words-in-context",
+    "skillLabel": "Words in Context",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Although the scientist's first experiment produced no useful results, she remained ___ and tried a different approach.</p>",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "discouraged",
+      "persistent",
+      "indifferent",
+      "careless"
+    ],
+    "answer": 1,
+    "explanation": "The word “although” signals a contrast with the failed experiment. She kept trying, so she was persistent."
+  },
+  {
+    "id": "rw-words-in-context-3",
+    "skill": "words-in-context",
+    "skillLabel": "Words in Context",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The museum's new exhibit is not merely informative; it is ___ , inviting visitors to touch, listen, and participate.</p>",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "interactive",
+      "remote",
+      "traditional",
+      "silent"
+    ],
+    "answer": 0,
+    "explanation": "Touching, listening, and participating describe an interactive exhibit."
+  },
+  {
+    "id": "rw-words-in-context-4",
+    "skill": "words-in-context",
+    "skillLabel": "Words in Context",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The mayor's plan was praised for its ___ : it addressed housing, transportation, and job training at the same time.</p>",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "scope",
+      "secrecy",
+      "cost",
+      "humor"
+    ],
+    "answer": 0,
+    "explanation": "The plan covers several major areas at once, so it has broad scope."
+  },
+  {
+    "id": "rw-words-in-context-5",
+    "skill": "words-in-context",
+    "skillLabel": "Words in Context",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The author's argument is ___ ; she presents evidence from several studies but never considers opposing findings.</p>",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "one-sided",
+      "balanced",
+      "irrelevant",
+      "cautious"
+    ],
+    "answer": 0,
+    "explanation": "The author presents only one side and ignores opposing findings, so the argument is one-sided."
+  },
+  {
+    "id": "rw-text-structure-1",
+    "skill": "text-structure",
+    "skillLabel": "Text Structure & Purpose",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Many people assume that coral reefs are plants. In fact, corals are animals. Tiny coral polyps build hard skeletons, and over time these skeletons form the reef.</p>",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It corrects a misconception and then explains a process.",
+      "It compares two kinds of animals.",
+      "It lists the causes of a problem.",
+      "It tells a personal story."
+    ],
+    "answer": 0,
+    "explanation": "The text first corrects the idea that corals are plants, then explains how coral polyps build reefs."
+  },
+  {
+    "id": "rw-text-structure-2",
+    "skill": "text-structure",
+    "skillLabel": "Text Structure & Purpose",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>City buses are often late. A new tracking system now lets riders see exactly where each bus is. The system also sends alerts when a bus is delayed. As a result, riders can plan their trips more reliably.</p>",
+    "prompt": "Which choice best describes the function of the final sentence?",
+    "choices": [
+      "It describes a benefit of the tracking system.",
+      "It introduces a new problem.",
+      "It contradicts the first sentence.",
+      "It defines a technical term."
+    ],
+    "answer": 0,
+    "explanation": "The final sentence explains how the tracking system helps riders, which is a benefit."
+  },
+  {
+    "id": "rw-text-structure-3",
+    "skill": "text-structure",
+    "skillLabel": "Text Structure & Purpose",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Some plants defend themselves chemically. When attacked by insects, tobacco plants release a substance that attracts predators of those insects.</p>",
+    "prompt": "Which choice best describes the function of the second sentence?",
+    "choices": [
+      "It provides an example of the first sentence's claim.",
+      "It presents a counterargument.",
+      "It summarizes the passage.",
+      "It introduces a new topic."
+    ],
+    "answer": 0,
+    "explanation": "The tobacco plant is a specific example of a plant defending itself chemically."
+  },
+  {
+    "id": "rw-text-structure-4",
+    "skill": "text-structure",
+    "skillLabel": "Text Structure & Purpose",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The invention of the printing press did not instantly create a reading public. Books remained expensive, and many people could not read. Over time, however, cheaper printing and rising literacy changed the situation.</p>",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It qualifies a common assumption and then explains a change.",
+      "It compares two inventions.",
+      "It lists the steps of a process.",
+      "It argues that printing should be banned."
+    ],
+    "answer": 0,
+    "explanation": "The text pushes back on the idea that printing immediately created readers, then explains how reading later spread."
+  },
+  {
+    "id": "rw-text-structure-5",
+    "skill": "text-structure",
+    "skillLabel": "Text Structure & Purpose",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The library should extend its hours. Students often study late, and the current closing time forces them to leave.</p>",
+    "prompt": "Which choice best describes the function of the second sentence?",
+    "choices": [
+      "It gives a reason for the claim in the first sentence.",
+      "It states the opposite of the first sentence.",
+      "It defines the word “library.”",
+      "It introduces a new argument."
+    ],
+    "answer": 0,
+    "explanation": "The second sentence supports the recommendation to extend hours by explaining why students need more time."
+  },
+  {
+    "id": "rw-cross-text-1",
+    "skill": "cross-text",
+    "skillLabel": "Cross-Text Connections",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Text 1:</strong> Remote work reduces commuting time and gives employees more flexibility. <strong>Text 2:</strong> Remote work can blur the boundary between job and home, making it harder to disconnect.</p>",
+    "prompt": "Which choice best describes the relationship between the two texts?",
+    "choices": [
+      "They discuss the same topic but emphasize different consequences.",
+      "Text 2 completely rejects Text 1's claim.",
+      "Text 1 presents evidence that Text 2 summarizes.",
+      "They discuss unrelated topics."
+    ],
+    "answer": 0,
+    "explanation": "Both texts discuss remote work, but one emphasizes flexibility and the other emphasizes difficulty disconnecting."
+  },
+  {
+    "id": "rw-cross-text-2",
+    "skill": "cross-text",
+    "skillLabel": "Cross-Text Connections",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Text 1:</strong> Urban trees lower temperatures by providing shade. <strong>Text 2:</strong> Shade is only one benefit; trees also absorb stormwater and improve air quality.</p>",
+    "prompt": "Which choice best describes the relationship between the two texts?",
+    "choices": [
+      "Text 2 adds additional benefits to the point made in Text 1.",
+      "Text 2 denies that trees provide shade.",
+      "Text 1 contradicts Text 2.",
+      "Text 1 and Text 2 describe different cities."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 accepts the benefit in Text 1 and adds more benefits."
+  },
+  {
+    "id": "rw-cross-text-3",
+    "skill": "cross-text",
+    "skillLabel": "Cross-Text Connections",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Text 1:</strong> A recent study found that students who took notes by hand remembered more than those who typed. <strong>Text 2:</strong> The study was small, and its results may not apply to all students.</p>",
+    "prompt": "Which choice best describes the relationship between the two texts?",
+    "choices": [
+      "Text 2 qualifies the finding in Text 1.",
+      "Text 2 provides additional evidence for Text 1.",
+      "Text 1 refutes Text 2.",
+      "The texts discuss different subjects."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 does not deny the finding; it points out limits to how broadly the finding can be applied."
+  },
+  {
+    "id": "rw-cross-text-4",
+    "skill": "cross-text",
+    "skillLabel": "Cross-Text Connections",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Text 1:</strong> Museums should return artifacts to their countries of origin. <strong>Text 2:</strong> Returning artifacts can be complicated when objects were legally acquired or when the original location has changed.</p>",
+    "prompt": "Which choice best describes the relationship between the two texts?",
+    "choices": [
+      "Text 2 introduces complications that affect Text 1's proposal.",
+      "Text 2 fully supports Text 1 without reservation.",
+      "Text 1 responds to an example in Text 2.",
+      "The texts discuss unrelated issues."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 raises practical complications rather than rejecting the proposal outright."
+  },
+  {
+    "id": "rw-cross-text-5",
+    "skill": "cross-text",
+    "skillLabel": "Cross-Text Connections",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Text 1:</strong> Electric cars produce no tailpipe emissions. <strong>Text 2:</strong> The electricity used to charge them may come from fossil fuels.</p>",
+    "prompt": "Which choice best describes the relationship between the two texts?",
+    "choices": [
+      "Text 2 points out a factor that Text 1 overlooks.",
+      "Text 2 provides evidence for Text 1.",
+      "Text 1 and Text 2 make identical claims.",
+      "Text 1 contradicts itself."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 adds an environmental consideration that is not covered by the tailpipe-emissions claim."
+  },
+  {
+    "id": "rw-central-ideas-1",
+    "skill": "central-ideas",
+    "skillLabel": "Central Ideas & Details",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Biologists attached tiny trackers to migrating birds. The trackers revealed that the birds flew farther and stopped less often than researchers had assumed. The findings may help conservationists protect key resting sites along the route.</p>",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Tracking devices revealed unexpected migration behavior that could inform conservation.",
+      "Birds migrate only at night.",
+      "Trackers are too heavy for most birds.",
+      "Conservationists disagree about migration routes."
+    ],
+    "answer": 0,
+    "explanation": "The passage focuses on how tracking revealed new migration details and how that information may help conservation."
+  },
+  {
+    "id": "rw-central-ideas-2",
+    "skill": "central-ideas",
+    "skillLabel": "Central Ideas & Details",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A community restored a damaged wetland by removing invasive plants and replanting native species. Within a few years, fish and bird populations increased. The wetland also absorbed more floodwater, reducing damage to nearby homes.</p>",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Wetland restoration improved both wildlife habitat and flood protection.",
+      "Invasive plants are impossible to remove.",
+      "Flooding is caused only by wetlands.",
+      "Native plants grow faster than invasive plants."
+    ],
+    "answer": 0,
+    "explanation": "The passage describes benefits to wildlife and to flood control."
+  },
+  {
+    "id": "rw-central-ideas-3",
+    "skill": "central-ideas",
+    "skillLabel": "Central Ideas & Details",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The novelist's stories rarely mention national politics directly. Instead, they focus on ordinary conversations, family meals, and small daily routines. Through these details, the stories reveal how large social changes reshape private life.</p>",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The novelist uses everyday details to show the effects of broad social change.",
+      "The novelist writes only about politics.",
+      "Family meals are the most important theme in literature.",
+      "The novelist avoids describing private life."
+    ],
+    "answer": 0,
+    "explanation": "The passage explains that ordinary details reveal larger social changes."
+  },
+  {
+    "id": "rw-central-ideas-4",
+    "skill": "central-ideas",
+    "skillLabel": "Central Ideas & Details",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Researchers asked participants to learn a list of words and then sleep in a laboratory. Participants who slept remembered more words the next day than those who stayed awake. The researchers concluded that sleep helps consolidate memories.</p>",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "A study found that sleep improves memory consolidation.",
+      "Participants who stayed awake remembered more words.",
+      "Laboratory sleep is uncomfortable.",
+      "Word lists are the best way to test intelligence."
+    ],
+    "answer": 0,
+    "explanation": "The passage describes a study showing that sleep helped participants remember more."
+  },
+  {
+    "id": "rw-central-ideas-5",
+    "skill": "central-ideas",
+    "skillLabel": "Central Ideas & Details",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>In the 1800s, the general store was essential to rural communities. It supplied tools, food, and clothing. It also served as a place where people exchanged news and information.</p>",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The general store was important both for supplies and for information.",
+      "General stores sold only food.",
+      "Rural communities had no other stores.",
+      "People in the 1800s did not share news."
+    ],
+    "answer": 0,
+    "explanation": "The passage emphasizes two roles: supplying goods and spreading information."
+  },
+  {
+    "id": "rw-evidence-textual-1",
+    "skill": "evidence-textual",
+    "skillLabel": "Command of Evidence — Textual",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A city introduced a new recycling program. The city claims that the program reduced household waste.</p>",
+    "prompt": "Which finding, if true, would best support the city's claim?",
+    "choices": [
+      "Households in the program threw away 30% less trash than before.",
+      "The program cost more than expected.",
+      "Some residents forgot to rinse their containers.",
+      "The city also planted more trees."
+    ],
+    "answer": 0,
+    "explanation": "A direct reduction in household trash supports the claim that the program reduced waste."
+  },
+  {
+    "id": "rw-evidence-textual-2",
+    "skill": "evidence-textual",
+    "skillLabel": "Command of Evidence — Textual",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A gardener claims that a certain plant grows best in partial shade.</p>",
+    "prompt": "Which finding, if true, would best support the gardener's claim?",
+    "choices": [
+      "Plants in partial shade grew taller than those in full sun or low light.",
+      "The plant is native to the region.",
+      "The gardener has grown many kinds of plants.",
+      "The plant produces small flowers."
+    ],
+    "answer": 0,
+    "explanation": "The comparison directly shows that partial shade produced the best growth."
+  },
+  {
+    "id": "rw-evidence-textual-3",
+    "skill": "evidence-textual",
+    "skillLabel": "Command of Evidence — Textual",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A scholar argues that the author valued firsthand observation.</p>",
+    "prompt": "Which quotation from the author would best support the scholar's claim?",
+    "choices": [
+      "“I walked the fields myself before writing a word.”",
+      "“I have always enjoyed reading novels.”",
+      "“My publisher asked for a longer book.”",
+      "“The cover was designed by a friend.”"
+    ],
+    "answer": 0,
+    "explanation": "Walking the fields before writing shows a commitment to firsthand observation."
+  },
+  {
+    "id": "rw-evidence-textual-4",
+    "skill": "evidence-textual",
+    "skillLabel": "Command of Evidence — Textual",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A transportation agency claims that new bike lanes increased cycling in the city.</p>",
+    "prompt": "Which finding, if true, would best support the agency's claim?",
+    "choices": [
+      "The number of cyclists rose after the lanes were added.",
+      "The lanes were painted green.",
+      "Some drivers disliked the new lanes.",
+      "The city has many hills."
+    ],
+    "answer": 0,
+    "explanation": "An increase in cyclists after the lanes were added directly supports the claim."
+  },
+  {
+    "id": "rw-evidence-textual-5",
+    "skill": "evidence-textual",
+    "skillLabel": "Command of Evidence — Textual",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A researcher claims that a new medication is effective against headaches.</p>",
+    "prompt": "Which finding, if true, would best support the researcher's claim?",
+    "choices": [
+      "Patients taking the medication reported fewer headaches than those taking a placebo.",
+      "The medication is available in tablet form.",
+      "The medication was tested in three countries.",
+      "The medication has a long name."
+    ],
+    "answer": 0,
+    "explanation": "A comparison with a placebo shows that the medication reduced headaches."
+  },
+  {
+    "id": "rw-evidence-quantitative-1",
+    "skill": "evidence-quantitative",
+    "skillLabel": "Command of Evidence — Quantitative",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A city tracked its recycling rate over three years.</p><table class=\"data-table\"><tr><th>Year</th><th>Recycling rate</th></tr><tr><td>2020</td><td>20%</td></tr><tr><td>2021</td><td>35%</td></tr><tr><td>2022</td><td>50%</td></tr></table><p>A city official claims that the recycling rate increased each year.</p>",
+    "prompt": "Which choice best supports the official's claim?",
+    "choices": [
+      "The rate rose from 20% in 2020 to 50% in 2022.",
+      "The rate was 35% in 2021.",
+      "The city has three recycling centers.",
+      "Recycling is popular in many cities."
+    ],
+    "answer": 0,
+    "explanation": "The full increase from 20% to 50% across the three years supports the claim that the rate increased each year."
+  },
+  {
+    "id": "rw-evidence-quantitative-2",
+    "skill": "evidence-quantitative",
+    "skillLabel": "Command of Evidence — Quantitative",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A student measured plant growth under different light conditions.</p><table class=\"data-table\"><tr><th>Condition</th><th>Growth</th></tr><tr><td>Full sun</td><td>10 cm</td></tr><tr><td>Partial shade</td><td>18 cm</td></tr><tr><td>Low light</td><td>6 cm</td></tr></table><p>The student claims that partial shade produced the best growth.</p>",
+    "prompt": "Which choice best supports the student's claim?",
+    "choices": [
+      "Plants in partial shade grew 18 cm, compared with 10 cm and 6 cm.",
+      "Plants in full sun grew 10 cm.",
+      "The experiment used three conditions.",
+      "The plants were measured in centimeters."
+    ],
+    "answer": 0,
+    "explanation": "The highest growth value occurred in partial shade, which directly supports the claim."
+  },
+  {
+    "id": "rw-evidence-quantitative-3",
+    "skill": "evidence-quantitative",
+    "skillLabel": "Command of Evidence — Quantitative",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A theater recorded attendance at its annual event.</p><table class=\"data-table\"><tr><th>Year</th><th>Attendance</th></tr><tr><td>2019</td><td>500</td></tr><tr><td>2020</td><td>0</td></tr><tr><td>2021</td><td>300</td></tr><tr><td>2022</td><td>600</td></tr></table><p>A reporter claims that attendance recovered after 2020.</p>",
+    "prompt": "Which choice best supports the reporter's claim?",
+    "choices": [
+      "Attendance rose from 0 in 2020 to 600 in 2022, exceeding the 2019 level.",
+      "Attendance was 300 in 2021.",
+      "The event was canceled in 2020.",
+      "The theater has 500 seats."
+    ],
+    "answer": 0,
+    "explanation": "The rise to 600 in 2022 and the comparison with 2019 show a recovery."
+  },
+  {
+    "id": "rw-evidence-quantitative-4",
+    "skill": "evidence-quantitative",
+    "skillLabel": "Command of Evidence — Quantitative",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Two groups of students studied the same material. Group A used practice tests; Group B only reread the material. Both groups studied for the same amount of time.</p><table class=\"data-table\"><tr><th>Group</th><th>Average score</th></tr><tr><td>Group A</td><td>85</td></tr><tr><td>Group B</td><td>78</td></tr></table><p>A teacher claims that practice tests were associated with higher scores.</p>",
+    "prompt": "Which choice best supports the teacher's claim?",
+    "choices": [
+      "Group A scored 85, while Group B scored 78.",
+      "Both groups studied for the same amount of time.",
+      "Group B reread the material.",
+      "The test had multiple-choice questions."
+    ],
+    "answer": 0,
+    "explanation": "The score difference between the groups supports the claim that practice tests were associated with higher scores."
+  },
+  {
+    "id": "rw-evidence-quantitative-5",
+    "skill": "evidence-quantitative",
+    "skillLabel": "Command of Evidence — Quantitative",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>A shop recorded ice cream sales at different temperatures.</p><table class=\"data-table\"><tr><th>Temperature</th><th>Sales</th></tr><tr><td>20°C</td><td>100</td></tr><tr><td>25°C</td><td>150</td></tr><tr><td>30°C</td><td>200</td></tr></table><p>The owner claims that sales rise as temperature increases.</p>",
+    "prompt": "Which choice best supports the owner's claim?",
+    "choices": [
+      "Sales increased from 100 to 200 as the temperature rose from 20°C to 30°C.",
+      "Sales were 150 at 25°C.",
+      "The shop sells several flavors.",
+      "The temperature was measured in Celsius."
+    ],
+    "answer": 0,
+    "explanation": "The consistent increase in sales with temperature supports the claim."
+  },
+  {
+    "id": "rw-inference-1",
+    "skill": "inference",
+    "skillLabel": "Inferences",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The road was closed after the storm. Drivers had to take a longer route to reach the town.</p>",
+    "prompt": "Which choice is best supported by the text?",
+    "choices": [
+      "The storm affected the road.",
+      "The storm destroyed every building in town.",
+      "Drivers preferred the longer route.",
+      "The road will never reopen."
+    ],
+    "answer": 0,
+    "explanation": "The road closure immediately after the storm supports the inference that the storm affected the road."
+  },
+  {
+    "id": "rw-inference-2",
+    "skill": "inference",
+    "skillLabel": "Inferences",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Maya checked the oven every few minutes. The cake still burned.</p>",
+    "prompt": "Which choice is best supported by the text?",
+    "choices": [
+      "The oven may have been too hot.",
+      "Maya forgot to add sugar.",
+      "The cake was not supposed to be baked.",
+      "Maya had never baked before."
+    ],
+    "answer": 0,
+    "explanation": "Frequent checking suggests Maya was concerned, and the burning suggests excessive heat or another baking problem."
+  },
+  {
+    "id": "rw-inference-3",
+    "skill": "inference",
+    "skillLabel": "Inferences",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The museum extended its hours after seeing the number of visitors on weekends.</p>",
+    "prompt": "Which choice is best supported by the text?",
+    "choices": [
+      "Weekend demand was high enough to justify longer hours.",
+      "The museum was losing money.",
+      "Weekday visitors were unhappy.",
+      "The museum closed permanently."
+    ],
+    "answer": 0,
+    "explanation": "The museum's decision suggests that weekend attendance made longer hours worthwhile."
+  },
+  {
+    "id": "rw-inference-4",
+    "skill": "inference",
+    "skillLabel": "Inferences",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The team practiced the same play repeatedly. In the final game, they executed it without hesitation.</p>",
+    "prompt": "Which choice is best supported by the text?",
+    "choices": [
+      "Practice improved the team's execution.",
+      "The team did not need to practice.",
+      "The final game was canceled.",
+      "The play was illegal."
+    ],
+    "answer": 0,
+    "explanation": "The contrast between repeated practice and smooth execution supports the idea that practice helped."
+  },
+  {
+    "id": "rw-inference-5",
+    "skill": "inference",
+    "skillLabel": "Inferences",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The researcher found no difference between the two groups. She concluded that the treatment did not work.</p>",
+    "prompt": "Which choice is best supported by the text?",
+    "choices": [
+      "The treatment was ineffective in the study.",
+      "The treatment worked better than expected.",
+      "The researcher lost the data.",
+      "The groups were not measured."
+    ],
+    "answer": 0,
+    "explanation": "No difference between groups supports the conclusion that the treatment had no effect."
+  },
+  {
+    "id": "rw-rhetorical-synthesis-1",
+    "skill": "rhetorical-synthesis",
+    "skillLabel": "Rhetorical Synthesis",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Notes:</strong></p><ul><li>The city opened a new park in 2022.</li><li>The park includes a playground and a walking trail.</li><li>The park was built on a former parking lot.</li></ul><p><strong>Goal:</strong> emphasize the park's transformation of the space.</p>",
+    "prompt": "Which choice best accomplishes the goal?",
+    "choices": [
+      "Built on a former parking lot, the new park now offers a playground and a walking trail.",
+      "The city opened a new park in 2022.",
+      "The park includes a playground.",
+      "The city has many parking lots."
+    ],
+    "answer": 0,
+    "explanation": "The sentence emphasizes the transformation by contrasting the former parking lot with the new park's features."
+  },
+  {
+    "id": "rw-rhetorical-synthesis-2",
+    "skill": "rhetorical-synthesis",
+    "skillLabel": "Rhetorical Synthesis",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Notes:</strong></p><ul><li>A study found that students who exercised before class were more focused.</li><li>The study included 200 students.</li><li>The exercise was a 10-minute walk.</li></ul><p><strong>Goal:</strong> emphasize the practical finding for students.</p>",
+    "prompt": "Which choice best accomplishes the goal?",
+    "choices": [
+      "A 10-minute walk before class was linked to better focus among students.",
+      "The study included 200 students.",
+      "The study was conducted at a school.",
+      "Exercise is healthy."
+    ],
+    "answer": 0,
+    "explanation": "The sentence focuses on the practical finding: a short walk before class and improved focus."
+  },
+  {
+    "id": "rw-rhetorical-synthesis-3",
+    "skill": "rhetorical-synthesis",
+    "skillLabel": "Rhetorical Synthesis",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Notes:</strong></p><ul><li>The library added evening hours.</li><li>Evening attendance doubled.</li><li>The library also added new computers.</li></ul><p><strong>Goal:</strong> emphasize the effect of the evening hours.</p>",
+    "prompt": "Which choice best accomplishes the goal?",
+    "choices": [
+      "After the library added evening hours, evening attendance doubled.",
+      "The library added new computers.",
+      "The library is open in the evening.",
+      "The library has many books."
+    ],
+    "answer": 0,
+    "explanation": "The sentence directly connects the new evening hours to the doubled attendance."
+  },
+  {
+    "id": "rw-rhetorical-synthesis-4",
+    "skill": "rhetorical-synthesis",
+    "skillLabel": "Rhetorical Synthesis",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Notes:</strong></p><ul><li>The company switched to reusable containers.</li><li>The switch reduced plastic waste by 40%.</li><li>The containers cost more initially.</li></ul><p><strong>Goal:</strong> emphasize the environmental benefit.</p>",
+    "prompt": "Which choice best accomplishes the goal?",
+    "choices": [
+      "The switch to reusable containers reduced plastic waste by 40%.",
+      "The containers cost more initially.",
+      "The company switched containers.",
+      "The company sells many products."
+    ],
+    "answer": 0,
+    "explanation": "The environmental benefit is the 40% reduction in plastic waste."
+  },
+  {
+    "id": "rw-rhetorical-synthesis-5",
+    "skill": "rhetorical-synthesis",
+    "skillLabel": "Rhetorical Synthesis",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p><strong>Notes:</strong></p><ul><li>The author grew up near the ocean.</li><li>Her new novel is set on a small island.</li><li>The novel explores themes of memory and loss.</li></ul><p><strong>Goal:</strong> connect the author's background to the novel's setting.</p>",
+    "prompt": "Which choice best accomplishes the goal?",
+    "choices": [
+      "Having grown up near the ocean, the author set her new novel on a small island.",
+      "The novel explores themes of memory and loss.",
+      "The author's new novel is her second book.",
+      "The author enjoys reading."
+    ],
+    "answer": 0,
+    "explanation": "The sentence connects her coastal upbringing to the island setting."
+  },
+  {
+    "id": "rw-transitions-1",
+    "skill": "transitions",
+    "skillLabel": "Transitions",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The trail was steep. ___ , the view from the top was worth the effort.</p>",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However",
+      "Therefore",
+      "For example",
+      "Similarly"
+    ],
+    "answer": 0,
+    "explanation": "The second sentence contrasts the difficulty with the reward, so “However” is correct."
+  },
+  {
+    "id": "rw-transitions-2",
+    "skill": "transitions",
+    "skillLabel": "Transitions",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The team practiced every day. ___ , their performance improved.</p>",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "As a result",
+      "In contrast",
+      "Meanwhile",
+      "For instance"
+    ],
+    "answer": 0,
+    "explanation": "Improved performance is a result of daily practice."
+  },
+  {
+    "id": "rw-transitions-3",
+    "skill": "transitions",
+    "skillLabel": "Transitions",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Some birds migrate long distances. ___ , the Arctic tern travels from pole to pole.</p>",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For example",
+      "Nevertheless",
+      "Instead",
+      "Similarly"
+    ],
+    "answer": 0,
+    "explanation": "The Arctic tern is a specific example of a long-distance migrant."
+  },
+  {
+    "id": "rw-transitions-4",
+    "skill": "transitions",
+    "skillLabel": "Transitions",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The museum is free on Fridays. ___ , it is closed on Mondays.</p>",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However",
+      "Therefore",
+      "Additionally",
+      "For instance"
+    ],
+    "answer": 0,
+    "explanation": "The two facts contrast: free on one day, closed on another."
+  },
+  {
+    "id": "rw-transitions-5",
+    "skill": "transitions",
+    "skillLabel": "Transitions",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The new policy reduces costs. ___ , it may increase wait times.</p>",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "At the same time",
+      "For example",
+      "As a result",
+      "In conclusion"
+    ],
+    "answer": 0,
+    "explanation": "The sentence adds a competing effect, so “At the same time” fits."
+  },
+  {
+    "id": "rw-boundaries-1",
+    "skill": "boundaries",
+    "skillLabel": "Boundaries",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The concert was canceled ___ because of the storm.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ",",
+      ";",
+      ":",
+      "no punctuation"
+    ],
+    "answer": 3,
+    "explanation": "No punctuation is needed: “because of the storm” is part of the same sentence."
+  },
+  {
+    "id": "rw-boundaries-2",
+    "skill": "boundaries",
+    "skillLabel": "Boundaries",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The recipe calls for three ingredients ___ flour, sugar, and butter.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ":",
+      ";",
+      ",",
+      "no punctuation"
+    ],
+    "answer": 0,
+    "explanation": "A colon introduces the list after a complete clause."
+  },
+  {
+    "id": "rw-boundaries-3",
+    "skill": "boundaries",
+    "skillLabel": "Boundaries",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The team practiced hard ___ they still lost the game.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ", but",
+      ";",
+      ",",
+      "no punctuation"
+    ],
+    "answer": 0,
+    "explanation": "A comma + coordinating conjunction correctly joins two independent clauses with contrast."
+  },
+  {
+    "id": "rw-boundaries-4",
+    "skill": "boundaries",
+    "skillLabel": "Boundaries",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>My sister ___ who lives in Chicago, is visiting next week.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ",",
+      ";",
+      ":",
+      "no punctuation"
+    ],
+    "answer": 0,
+    "explanation": "A comma sets off the nonessential relative clause “who lives in Chicago.”"
+  },
+  {
+    "id": "rw-boundaries-5",
+    "skill": "boundaries",
+    "skillLabel": "Boundaries",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The scientist made a surprising discovery ___ a new species of frog.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ":",
+      ";",
+      ",",
+      "no punctuation"
+    ],
+    "answer": 0,
+    "explanation": "A colon introduces the explanation of the discovery."
+  },
+  {
+    "id": "rw-form-structure-sense-1",
+    "skill": "form-structure-sense",
+    "skillLabel": "Form, Structure, and Sense",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Each of the students ___ a notebook.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has",
+      "have",
+      "having",
+      "were having"
+    ],
+    "answer": 0,
+    "explanation": "The subject is “Each,” which is singular, so “has” is correct."
+  },
+  {
+    "id": "rw-form-structure-sense-2",
+    "skill": "form-structure-sense",
+    "skillLabel": "Form, Structure, and Sense",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The number of applicants ___ increased this year.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": 0,
+    "explanation": "The subject is “the number,” which is singular, so “has” is correct."
+  },
+  {
+    "id": "rw-form-structure-sense-3",
+    "skill": "form-structure-sense",
+    "skillLabel": "Form, Structure, and Sense",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>Neither the teacher nor the students ___ ready for the assembly.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "were",
+      "was",
+      "is",
+      "has"
+    ],
+    "answer": 0,
+    "explanation": "With “neither … nor,” the verb agrees with the closer subject, “students,” which is plural."
+  },
+  {
+    "id": "rw-form-structure-sense-4",
+    "skill": "form-structure-sense",
+    "skillLabel": "Form, Structure, and Sense",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The company ___ employees to work remotely.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "allows",
+      "allow",
+      "allowing",
+      "have allowed"
+    ],
+    "answer": 0,
+    "explanation": "The singular subject “company” takes the singular verb “allows.”"
+  },
+  {
+    "id": "rw-form-structure-sense-5",
+    "skill": "form-structure-sense",
+    "skillLabel": "Form, Structure, and Sense",
+    "domain": "Reading & Writing",
+    "difficulty": 1,
+    "type": "mcq",
+    "passage": "<p>The book, along with its sequel, ___ on the shelf.</p>",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "sits",
+      "sit",
+      "sitting",
+      "have sat"
+    ],
+    "answer": 0,
+    "explanation": "The subject is “the book,” which is singular. “Along with its sequel” is extra information."
+  }
+]

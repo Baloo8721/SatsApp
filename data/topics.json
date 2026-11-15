@@ -1,0 +1,780 @@
+[
+  {
+    "id": "reference-sheet",
+    "number": null,
+    "title": "Reference Sheet",
+    "subtitle": "The SAT gives you this on every test — you never have to memorize it",
+    "domain": "Reference",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image1.webp",
+        "alt": "SAT reference sheet",
+        "caption": "SAT reference sheet"
+      },
+      {
+        "type": "image",
+        "src": "assets/formulas/image2.webp",
+        "alt": "SAT reference sheet",
+        "caption": "SAT reference sheet"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Circle: area = πr².  Circumference = 2πr.</li><li>Rectangle: area = ℓw   (length times width).</li><li>Triangle area =  × base × height.</li><li>Right triangle: a² + b² = c²  (c is always the longest side, across from the right angle).</li><li>Circle has 360° of arc, or 2π radians, all the way around.</li><li>Angles in any triangle always add up to 180°.</li></ul>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image1.webp",
+        "alt": "SAT reference sheet",
+        "caption": "SAT reference sheet"
+      },
+      {
+        "type": "image",
+        "src": "assets/formulas/image2.webp",
+        "alt": "SAT reference sheet",
+        "caption": "SAT reference sheet"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "title": "Solving Basic Equations",
+    "subtitle": "Get x by itself",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>Move all the x&#x27;s to one side, numbers to the other.</li><li>Combine like terms.</li><li>Divide to get x alone.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  3 more than 8 times x is 83. 8x + 3 = 83 8x = 80 x = 10</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Solve:  = 36 Multiply both sides by 25:   x² = 900 Take the square root:   x = 30  or  x = −30</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "title": "Word Problems → Equations",
+    "subtitle": "Turn sentences into math",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>&quot;more than&quot; / &quot;increased by&quot;  →  +</li><li>&quot;less than&quot; / &quot;decreased by&quot;  →  −   (watch the order! &quot;5 less than x&quot; = x − 5)</li><li>&quot;times&quot; / &quot;of&quot;  →  ×</li><li>&quot;per&quot; / &quot;each&quot;  →  rate × variable</li><li>&quot;is&quot; / &quot;equals&quot;  →  =</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Oranges cost $3 per pound. Spent $27. How many pounds? Let p = pounds.   3p = 27   →   p = 9</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  9 storage bins, same price each. A $63 coupon brings the total to $27. Price per bin? Let x = price per bin. 9x − 63 = 27 9x = 90 x = 10</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "title": "Percent & Ratios",
+    "subtitle": "Three patterns you'll see over and over",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>&quot;What % of X is Y?&quot;   →   percent =  × 100</li><li>&quot;What is P% of X?&quot;   →   answer = (P ÷ 100) × X</li><li>&quot;Y is P% more/less than X&quot;   →   Y = X × (1 ± P ÷ 100)</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  What percent of 300 is 75? (75 ÷ 300) × 100 = 25%</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Ratios &amp; proportions:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Set up equal fractions and cross-multiply.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Length:width = 35:10. Width grows by 7. How much does length grow? Ratio =  = 3.5 New width = 10 + 7 = 17 New length = 17 × 3.5 = 59.5 Change = 59.5 − 35 = 24.5</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "title": "Solving for One Variable in a Formula",
+    "subtitle": "Plug in what you know first",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>Plug in the value you&#x27;re given.</li><li>Solve like a normal one-variable equation.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  2.5b + 5r = 80. If r = 16, find b. 2.5b + 5(16) = 80 2.5b + 80 = 80 2.5b = 0 b = 0</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "title": "Systems of Equations",
+    "subtitle": "Two equations, two unknowns",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<p>Elimination:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Make one variable&#x27;s coefficients match (or be opposites).</li><li>Add or subtract the equations to cancel that variable.</li><li>Solve, then plug back in.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  24x + y = 48   and   6x + y = 72 Subtract:   18x = −24 x =  =  Plug into 6x + y = 72:   −8 + y = 72   →   y = 80</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>No solution vs. infinitely many:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Same slope, different line (parallel)  →  NO solution</li><li>Same slope, exact same line  →  INFINITE solutions</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  −3x + 21px = 84 has no solution. Find p. Rewrite:   (21p − 3)x = 84 For no solution, the coefficient of x must be 0: 21p − 3 = 0   →   p =  =</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "title": "Systems of Inequalities",
+    "subtitle": "A point must satisfy BOTH",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>Plug the point into each inequality separately.</li><li>It&#x27;s only a solution if it works for ALL of them.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Is (8, 2) a solution to x &gt; 0 AND y &lt; 0? x = 8 &gt; 0  ✓ y = 2 is NOT less than 0  ✗ Not a solution — fails the second inequality.</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "title": "Linear Functions & Graphs",
+    "subtitle": "f(x) = mx + b",
+    "domain": "Algebra",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image3.webp",
+        "alt": "Slope formula",
+        "caption": "Slope formula"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>m = slope = how steep the line is</li><li>b = y-intercept = where the line crosses the y-axis (value when x = 0)</li><li>Slope formula:   m =   =</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>From a slope + one point:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>y − y₁ = m(x − x₁)</li><li>Solve for y.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Slope = , passes through (9, 10). y − 10 = (x − 9) y = x + 13</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>From a table of values:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  f(0) = 29,  f(1) = 32,  f(2) = 35 Slope = (32 − 29) ÷ (1 − 0) = 3 b = f(0) = 29 f(x) = 3x + 29</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>What slope means in real life:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  f(t) = 100 + 25t is money in a bank account after t deposits. What does 25 mean? 25 is the slope — the amount added EACH deposit. So: each deposit adds $25.</td></tr></table>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image3.webp",
+        "alt": "Slope formula",
+        "caption": "Slope formula"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "title": "Quadratics & Parabolas",
+    "subtitle": "x² equations and their U-shaped graphs",
+    "domain": "Advanced Math",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image4.webp",
+        "alt": "Quadratic formula",
+        "caption": "Quadratic formula"
+      },
+      {
+        "type": "html",
+        "html": "<p>Factoring steps:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Find two numbers that multiply to a×c and add to b.</li><li>Split the middle term using those numbers.</li><li>Group and factor. Set each factor = 0.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  x² + 5x + 6 = 0 Need two numbers: multiply to 6, add to 5 → 2 and 3 (x + 2)(x + 3) = 0 x = −2  or  x = −3</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Quadratic formula (when it won&#x27;t factor):</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>x =</p>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Finding the vertex (min or max point):</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>y = a(x − h)² + k   →   vertex is (h, k) — done, no work needed</li><li>y = ax² + bx + c   →   vertex x = , then plug in for y</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  f(x) = (x − 10)(x + 13). Find the x of the minimum. Roots: x = 10 and x = −13 Vertex x is exactly in the middle: x =  =</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Discriminant = b² − 4ac  tells you how many real answers:</p>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"data-table\"><tr><td>Discriminant</td><td>Meaning</td></tr><tr><td>Positive</td><td>2 real solutions</td></tr><tr><td>Zero</td><td>Exactly 1 real solution</td></tr><tr><td>Negative</td><td>No real solution</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  −x² + bx − 676 = 0 has no real solution. b is a positive integer. Greatest possible b? b² − 4(−1)(−676) &lt; 0 b² &lt; 2704 b &lt; 52   →   greatest integer is 51</td></tr></table>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image4.webp",
+        "alt": "Quadratic formula",
+        "caption": "Quadratic formula"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "title": "Exponential Growth & Decay",
+    "subtitle": "f(x) = a · bˣ",
+    "domain": "Advanced Math",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image5.webp",
+        "alt": "Exponential growth and decay",
+        "caption": "Exponential growth and decay"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>a = starting value (where the graph crosses the y-axis)</li><li>b &gt; 1  →  growth.       0 &lt; b &lt; 1  →  decay</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  f(x) = 5,470(0.64) to the (x ÷ 12) power, x in months. Yearly % decrease? x ÷ 12 turns months into years, so 0.64 IS the yearly multiplier. Decrease = (1 − 0.64) × 100% = 36% per year</td></tr></table>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image5.webp",
+        "alt": "Exponential growth and decay",
+        "caption": "Exponential growth and decay"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "title": "Exponents & Radicals",
+    "subtitle": "Power rules",
+    "domain": "Advanced Math",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>xᵃ · xᵇ = xᵃ⁺ᵇ   (same base, multiplying → add the powers)</li><li>(xᵃ)ᵇ = xᵃᵇ   (power to a power → multiply)</li><li>A  power means an n-th root:   x^(1/n) = ⁿ√x</li><li>A negative power flips to a fraction:   x⁻ⁿ =</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  2⁻³ = ? 2⁻³ =  =</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Solving an equation with a square root:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Isolate the square root.</li><li>Square both sides.</li><li>Solve. Then check your answer in the original equation.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  √(x + 5) = 7 Square both sides:   x + 5 = 49 x = 44</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>⚠ WATCH OUT:  Squaring both sides can create a fake answer. Always plug your answer back into the ORIGINAL equation to double check.</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "title": "Absolute Value Equations",
+    "subtitle": "|expression| = number",
+    "domain": "Advanced Math",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>Drop the bars, write TWO equations: one positive, one negative.</li><li>Solve both.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  |x − 5| = 10 x − 5 = 10   →   x = 15 x − 5 = −10   →   x = −5</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>⚠ WATCH OUT:  If the equation says |something| = a NEGATIVE number, there is NO solution. Absolute value can never be negative.</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "title": "Special Right Triangles",
+    "subtitle": "Two ratios to memorize",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image6.webp",
+        "alt": "Special right triangles",
+        "caption": "Special right triangles"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  45-45-90 triangle: each leg is 6. Find the hypotenuse. Hypotenuse = leg × √2 Hypotenuse = 6√2</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  30-60-90 triangle: short leg (across from 30°) is 5. Find the other two sides. Long leg = short leg × √3 = 5√3 Hypotenuse = short leg × 2 = 10</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Isosceles right triangle has hypotenuse 58. Find the perimeter. leg =  = 29√2 Perimeter = 29√2 + 29√2 + 58 = 58√2 + 58</td></tr></table>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image6.webp",
+        "alt": "Special right triangles",
+        "caption": "Special right triangles"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "title": "Right Triangle Trig — SOH-CAH-TOA",
+    "subtitle": "Step by step, explained simply",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image7.webp",
+        "alt": "SOH-CAH-TOA",
+        "caption": "SOH-CAH-TOA"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Pick an angle (not the right angle). Call it θ.</li><li>Hypotenuse = longest side, always across from the right angle.</li><li>Opposite = the side across from θ.</li><li>Adjacent = the side touching θ (that isn&#x27;t the hypotenuse).</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<div class=\"memory\"><div class=\"memory-label\">Memory hook</div><p>SOH-CAH-TOA (memorize this word):</p></div>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>SOH:   sin θ =</li><li>CAH:   cos θ =</li><li>TOA:   tan θ =</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>How to solve any SOH-CAH-TOA problem:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Find θ (the angle you care about) and label the 3 sides from ITS point of view.</li><li>Decide which two sides you know or want (opp/hyp, adj/hyp, or opp/adj).</li><li>Pick SOH, CAH, or TOA to match those two sides.</li><li>Plug the numbers in as a fraction. That&#x27;s your answer (or solve for the missing side).</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  A right triangle has legs 3 and 4, hypotenuse 5. θ is opposite the side of length 3. Find sin θ, cos θ, tan θ. Opposite = 3,  Adjacent = 4,  Hypotenuse = 5 sin θ =  cos θ =  tan θ =</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Complementary angle trick:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>The two non-right angles in a right triangle always add to 90°.</li><li>So:   cos(one angle) = sin(the other angle)</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  In triangle JKL, cos(K) =  and angle J is the right angle. Find cos(L). K and L are complementary, so cos(L) = sin(K). Find the missing side with a² + b² = c²: 24² + b² = 51²   →   b² = 2601 − 576 = 2025   →   b = 45 sin(K) =   =   So cos(L) =</td></tr></table>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image7.webp",
+        "alt": "SOH-CAH-TOA",
+        "caption": "SOH-CAH-TOA"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "title": "Similar Triangles",
+    "subtitle": "Matching angles are equal",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>Find which vertices match up (the problem will tell you, like &quot;P corresponds to S&quot;).</li><li>Matching angles are equal. Use &quot;angles add to 180°&quot; to find missing ones.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Right triangles PQR ~ STU, P matches S. Angle Q = 18°. Find angle S. Angle R and angle U are the right angles (90° each). In triangle PQR: angle P = 180 − 90 − 18 = 72° Angle P matches angle S, so angle S = 72°</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "title": "Circles in the Coordinate Plane",
+    "subtitle": "Center-radius form",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image8.webp",
+        "alt": "Circle in the coordinate plane",
+        "caption": "Circle in the coordinate plane"
+      },
+      {
+        "type": "html",
+        "html": "<p>(x − h)² + (y − k)² = r²      center = (h, k),  radius = r</p>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  x² + (y − 1)² = 49, shifted down 2. New equation? New center: (0, 1 − 2) = (0, −1) New equation: x² + (y + 1)² = 49</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>If it&#x27;s not already in that form:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Group x-terms and y-terms; move the constant to the other side.</li><li>For each group: half the middle coefficient, square it, add to both sides.</li><li>Rewrite each side as a perfect square.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Arc measure:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Arc measure = its central angle. Arc RS = 100°  →  angle ROS = 100° (O = center).</li></ul>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image8.webp",
+        "alt": "Circle in the coordinate plane",
+        "caption": "Circle in the coordinate plane"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "title": "Volume",
+    "subtitle": "How much space a 3D shape holds",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<table class=\"data-table\"><tr><td>Shape</td><td>Volume Formula</td></tr><tr><td>Box (rectangular prism)</td><td>V = ℓwh</td></tr><tr><td>Cylinder</td><td>V = πr²h</td></tr><tr><td>Sphere</td><td>V = πr³</td></tr><tr><td>Cone</td><td>V = πr²h</td></tr><tr><td>Pyramid</td><td>V = ℓwh</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Box: length 5, width 3, height 4. Find the volume. V = ℓwh = 5 × 3 × 4 V = 60 cubic units</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Cylinder: radius 3, height 10. Use π ≈ 3.14. V = πr²h = 3.14 × 3² × 10 V = 3.14 × 9 × 10 V = 282.6 cubic units</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "title": "Surface Area",
+    "subtitle": "The total area of all outside faces",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<table class=\"data-table\"><tr><td>Shape</td><td>Surface Area Formula</td></tr><tr><td>Box</td><td>SA = 2(ℓw + ℓh + wh)</td></tr><tr><td>Cube (side s)</td><td>SA = 6s²</td></tr><tr><td>Cylinder</td><td>SA = 2πr² + 2πrh</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Box: length 4, width 3, height 2. Find the surface area. SA = 2(ℓw + ℓh + wh) SA = 2(12 + 8 + 6) SA = 2(26) = 52 square units</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<p>Gluing two solids together:</p>"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Faces that get glued together are no longer on the outside — subtract them twice (once from each solid).</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Two cubes, each with side 4, are glued together face-to-face. Find the combined surface area. One cube&#x27;s surface area: 6 × 4² = 6 × 16 = 96 Two cubes separately: 2 × 96 = 192 Subtract the 2 glued faces (one from each cube): 192 − 2(16) = 160 Combined surface area = 160 square units</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "title": "Parallel Lines & Angles",
+    "subtitle": "A transversal crossing two parallel lines",
+    "domain": "Geometry & Trig",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image9.webp",
+        "alt": "Parallel lines and a transversal",
+        "caption": "Parallel lines and a transversal"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Vertical angles (across from each other) are EQUAL.</li><li>Corresponding angles (same corner, different line) are EQUAL.</li><li>Same-side interior angles ADD UP TO 180°.</li></ul>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Angle x = 65°. Find the corresponding angle y, and the same-side interior angle z. y is corresponding to x, so y = 65° z is same-side interior with x, so z = 180 − 65 = 115°</td></tr></table>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image9.webp",
+        "alt": "Parallel lines and a transversal",
+        "caption": "Parallel lines and a transversal"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "title": "Mean, Median, Mode & Range",
+    "subtitle": "Basic data vocabulary",
+    "domain": "Data & Statistics",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<table class=\"data-table\"><tr><td>Word</td><td>Meaning</td><td>How to find it</td></tr><tr><td>Mean</td><td>the average</td><td>add everything up, divide by how many numbers</td></tr><tr><td>Median</td><td>the middle value</td><td>sort the numbers, find the middle one</td></tr><tr><td>Mode</td><td>the most common value</td><td>whichever number shows up most</td></tr><tr><td>Range</td><td>the spread</td><td>biggest number minus smallest number</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Data set: 2, 3, 3, 5, 7 Mean = (2+3+3+5+7) ÷ 5 = 4 Median = 3 (the middle number) Mode = 3 (appears twice) Range = 7 − 2 = 5</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>⚠ WATCH OUT:  If you add the same number to every value in a data set: mean and median shift by that amount, but range stays exactly the same.</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "title": "Probability & Two-Way Tables",
+    "subtitle": "Favorable over total",
+    "domain": "Data & Statistics",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<p>P(event) =</p>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  A table shows 30 red tiles out of 100 total tiles. P(red)? P(red) =  =</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 21,
+    "number": 21,
+    "title": "Margin of Error",
+    "subtitle": "How sure are we?",
+    "domain": "Data & Statistics",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<p>Estimate p, margin of error m  →  the true value is PLAUSIBLY between (p − m) and (p + m).</p>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Estimate = 0.49, margin of error = 0.04. What&#x27;s plausible? Range: 0.49 − 0.04 = 0.45   to   0.49 + 0.04 = 0.53 Plausible the true value is between 0.45 and 0.53.</td></tr></table>"
+      },
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>⚠ WATCH OUT:  The right answer always describes a RANGE — never says the value is &quot;exactly&quot; one number.</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 22,
+    "number": 22,
+    "title": "Unit Conversions",
+    "subtitle": "Cancel the units out",
+    "domain": "Data & Statistics",
+    "blocks": [
+      {
+        "type": "html",
+        "html": "<table class=\"callout-table\"><tr><td>✏ EXAMPLE:  Convert 5,104 yards to miles. (1 mile = 1,760 yards) 5,104 ÷ 1,760 ≈ 2.9 miles</td></tr></table>"
+      }
+    ],
+    "images": []
+  },
+  {
+    "id": 23,
+    "number": 23,
+    "title": "Reading Bar Graphs",
+    "subtitle": "Look, trace, read",
+    "domain": "Data & Statistics",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image10.webp",
+        "alt": "Bar graph",
+        "caption": "Bar graph"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Find the category on the bottom axis.</li><li>Trace straight up to the top of that bar.</li><li>Trace across to the numbered side axis. That&#x27;s your answer.</li></ul>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image10.webp",
+        "alt": "Bar graph",
+        "caption": "Bar graph"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "number": 24,
+    "title": "Scatterplots & Line of Best Fit",
+    "subtitle": "Spotting the trend",
+    "domain": "Data & Statistics",
+    "blocks": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image11.webp",
+        "alt": "Scatterplot and line of best fit",
+        "caption": "Scatterplot and line of best fit"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Points falling as x increases  →  negative slope</li><li>Points rising as x increases  →  positive slope</li><li>The best-fit line does NOT need to touch every point — it just gets closest overall.</li></ul>"
+      }
+    ],
+    "images": [
+      {
+        "type": "image",
+        "src": "assets/formulas/image11.webp",
+        "alt": "Scatterplot and line of best fit",
+        "caption": "Scatterplot and line of best fit"
+      }
+    ]
+  },
+  {
+    "id": "test-day-tips",
+    "number": null,
+    "title": "Test Day Tips",
+    "subtitle": "Quick habits that save time",
+    "domain": "Reference",
+    "blocks": [
+      {
+        "type": "ul",
+        "html": "<ul><li>Stuck? Try plugging in the answer choices, starting with B or C.</li><li>The formula sheet is always there — don&#x27;t memorize what&#x27;s already given.</li><li>&quot;Must be true&quot; question? Test it with real numbers.</li><li>Always define your variable before writing a word-problem equation.</li><li>Double check your units.</li><li>Re-read the question before locking in your answer — make sure you solved for the right thing.</li></ul>"
+      }
+    ],
+    "images": []
+  }
+]

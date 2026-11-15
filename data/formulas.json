@@ -1,0 +1,912 @@
+[
+  {
+    "id": "circle-area",
+    "name": "Area of a circle",
+    "domain": "Reference",
+    "topicIds": [
+      15
+    ],
+    "given": true,
+    "html": "<span class=\"math\">A = πr<sup>2</sup></span>",
+    "plain": "A = pi r^2",
+    "when": "Find the space inside a circle.",
+    "hook": "Area is pi times radius squared.",
+    "example": "r = 3 → A = π(3²) = 9π ≈ 28.27.",
+    "mistake": "Using diameter instead of radius.",
+    "image": null
+  },
+  {
+    "id": "circumference",
+    "name": "Circumference of a circle",
+    "domain": "Reference",
+    "topicIds": [
+      15
+    ],
+    "given": true,
+    "html": "<span class=\"math\">C = 2πr</span>",
+    "plain": "C = 2 pi r",
+    "when": "Find the distance around a circle.",
+    "hook": "Circumference is two pi r.",
+    "example": "r = 5 → C = 10π ≈ 31.42.",
+    "mistake": "Using r² instead of r.",
+    "image": null
+  },
+  {
+    "id": "rectangle-area",
+    "name": "Area of a rectangle",
+    "domain": "Reference",
+    "topicIds": [],
+    "given": true,
+    "html": "<span class=\"math\">A = ℓw</span>",
+    "plain": "A = length × width",
+    "when": "Find the space inside a rectangle.",
+    "hook": "Length times width.",
+    "example": "ℓ = 8, w = 3 → A = 24.",
+    "mistake": "Adding sides instead of multiplying.",
+    "image": null
+  },
+  {
+    "id": "triangle-area",
+    "name": "Area of a triangle",
+    "domain": "Reference",
+    "topicIds": [],
+    "given": true,
+    "html": "<span class=\"math\">A = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>bh</span>",
+    "plain": "A = 1/2 × base × height",
+    "when": "Find the space inside a triangle.",
+    "hook": "Half base times height.",
+    "example": "b = 10, h = 6 → A = 30.",
+    "mistake": "Using a slanted side instead of the perpendicular height.",
+    "image": null
+  },
+  {
+    "id": "pythagorean",
+    "name": "Pythagorean theorem",
+    "domain": "Reference",
+    "topicIds": [
+      12
+    ],
+    "given": true,
+    "html": "<span class=\"math\">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></span>",
+    "plain": "a^2 + b^2 = c^2",
+    "when": "Right triangles: find a missing side.",
+    "hook": "The two legs squared equal the hypotenuse squared.",
+    "example": "Legs 3 and 4 → c² = 9 + 16 = 25 → c = 5.",
+    "mistake": "Putting a leg in place of c.",
+    "image": null
+  },
+  {
+    "id": "circle-angles",
+    "name": "Circle arc measure",
+    "domain": "Reference",
+    "topicIds": [
+      15
+    ],
+    "given": true,
+    "html": "<span class=\"math\">360° = 2π radians</span>",
+    "plain": "360 degrees = 2 pi radians",
+    "when": "Convert between degrees and radians.",
+    "hook": "A full circle is 360° or 2π.",
+    "example": "180° = π radians; 90° = π/2 radians.",
+    "mistake": "Mixing degrees and radians in one calculation.",
+    "image": null
+  },
+  {
+    "id": "triangle-angles",
+    "name": "Triangle angle sum",
+    "domain": "Reference",
+    "topicIds": [
+      12
+    ],
+    "given": true,
+    "html": "<span class=\"math\">A + B + C = 180°</span>",
+    "plain": "A + B + C = 180 degrees",
+    "when": "Find a missing angle in any triangle.",
+    "hook": "Every triangle holds 180°.",
+    "example": "Angles 50° and 60° → third angle = 70°.",
+    "mistake": "Using 360° for a triangle.",
+    "image": null
+  },
+  {
+    "id": "slope",
+    "name": "Slope formula",
+    "domain": "Algebra",
+    "topicIds": [
+      7,
+      24
+    ],
+    "given": false,
+    "html": "<span class=\"math\">m = <span class=\"frac\"><span class=\"num\">y<sub>2</sub> − y<sub>1</sub></span><span class=\"den\">x<sub>2</sub> − x<sub>1</sub></span></span> = <span class=\"frac\"><span class=\"num\">rise</span><span class=\"den\">run</span></span></span>",
+    "plain": "m = (y2 - y1) / (x2 - x1) = rise / run",
+    "when": "Find steepness or rate of change from two points.",
+    "hook": "Rise over run; y's on top, x's on bottom.",
+    "example": "(2, 3) and (6, 11) → m = (11−3)/(6−2) = 8/4 = 2.",
+    "mistake": "Subtracting in the wrong order (y on top, x on bottom).",
+    "image": "assets/formulas/image3.webp"
+  },
+  {
+    "id": "slope-intercept",
+    "name": "Slope-intercept form",
+    "domain": "Algebra",
+    "topicIds": [
+      7
+    ],
+    "given": false,
+    "html": "<span class=\"math\">y = mx + b</span>",
+    "plain": "y = m x + b",
+    "when": "Graph a line or read slope and y-intercept.",
+    "hook": "m is the slope, b is where it starts on the y-axis.",
+    "example": "y = 3x + 29 → slope 3, y-intercept 29.",
+    "mistake": "Swapping m and b.",
+    "image": null
+  },
+  {
+    "id": "point-slope",
+    "name": "Point-slope form",
+    "domain": "Algebra",
+    "topicIds": [
+      7
+    ],
+    "given": false,
+    "html": "<span class=\"math\">y − y<sub>1</sub> = m(x − x<sub>1</sub>)</span>",
+    "plain": "y - y1 = m(x - x1)",
+    "when": "You know the slope and one point.",
+    "hook": "Plug the point and slope into the template.",
+    "example": "m = 2 through (9, 10) → y − 10 = 2(x − 9) → y = 2x − 8.",
+    "mistake": "Forgetting to distribute the slope.",
+    "image": null
+  },
+  {
+    "id": "standard-form",
+    "name": "Standard form of a line",
+    "domain": "Algebra",
+    "topicIds": [
+      7
+    ],
+    "given": false,
+    "html": "<span class=\"math\">Ax + By = C</span>",
+    "plain": "A x + B y = C",
+    "when": "Rewrite a linear equation in standard form.",
+    "hook": "Both variables on the left, constant on the right.",
+    "example": "y = 2x + 5 → 2x − y = −5.",
+    "mistake": "Leaving fractions or a negative leading coefficient when the question asks for integers.",
+    "image": null
+  },
+  {
+    "id": "linear-inequality",
+    "name": "Solving a linear inequality",
+    "domain": "Algebra",
+    "topicIds": [
+      6
+    ],
+    "given": false,
+    "html": "<span class=\"math\">flip the sign when × or ÷ by a negative</span>",
+    "plain": "Flip the inequality sign when multiplying or dividing by a negative.",
+    "when": "Solve inequalities.",
+    "hook": "Negative flip: the only rule that changes the sign.",
+    "example": "−2x > 8 → x < −4.",
+    "mistake": "Forgetting to flip the inequality sign.",
+    "image": null
+  },
+  {
+    "id": "average-rate",
+    "name": "Average rate of change",
+    "domain": "Algebra",
+    "topicIds": [
+      7
+    ],
+    "given": false,
+    "html": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">f(b) − f(a)</span><span class=\"den\">b − a</span></span></span>",
+    "plain": "(f(b) - f(a)) / (b - a)",
+    "when": "Find the average change between two inputs.",
+    "hook": "Change in output over change in input.",
+    "example": "f(1)=5, f(4)=20 → (20−5)/(4−1) = 5.",
+    "mistake": "Using the x-values on top.",
+    "image": null
+  },
+  {
+    "id": "percent",
+    "name": "Percent of a number",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      3
+    ],
+    "given": false,
+    "html": "<span class=\"math\">part = <span class=\"frac\"><span class=\"num\">percent</span><span class=\"den\">100</span></span> × whole</span>",
+    "plain": "part = (percent / 100) × whole",
+    "when": "Find a percentage of a total.",
+    "hook": "Percent means per 100.",
+    "example": "What is 25% of 300? → 0.25 × 300 = 75.",
+    "mistake": "Dividing by 100 twice.",
+    "image": null
+  },
+  {
+    "id": "percent-change",
+    "name": "Percent change",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      3
+    ],
+    "given": false,
+    "html": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">new − old</span><span class=\"den\">old</span></span> × 100%</span>",
+    "plain": "((new - old) / old) × 100%",
+    "when": "Find an increase or decrease.",
+    "hook": "Change divided by the original.",
+    "example": "From 40 to 50 → (10/40) × 100% = 25% increase.",
+    "mistake": "Dividing by the new value.",
+    "image": null
+  },
+  {
+    "id": "percent-more-less",
+    "name": "Percent more or less",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      3
+    ],
+    "given": false,
+    "html": "<span class=\"math\">new = old × (1 ± <span class=\"frac\"><span class=\"num\">p</span><span class=\"den\">100</span></span>)</span>",
+    "plain": "new = old × (1 ± p/100)",
+    "when": "Apply a percent increase or decrease.",
+    "hook": "Add or subtract the percent from 1.",
+    "example": "A 20% decrease → multiply by 0.80.",
+    "mistake": "Multiplying by 20 instead of 0.20.",
+    "image": null
+  },
+  {
+    "id": "ratio-proportion",
+    "name": "Ratio and proportion",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      3
+    ],
+    "given": false,
+    "html": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> = <span class=\"frac\"><span class=\"num\">c</span><span class=\"den\">d</span></span> → ad = bc</span>",
+    "plain": "a/b = c/d → ad = bc",
+    "when": "Solve scale, ratio, and unit problems.",
+    "hook": "Cross-multiply.",
+    "example": "3/4 = x/12 → 4x = 36 → x = 9.",
+    "mistake": "Cross-multiplying the wrong pairs.",
+    "image": null
+  },
+  {
+    "id": "unit-conversion",
+    "name": "Unit conversion",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      22
+    ],
+    "given": false,
+    "html": "<span class=\"math\">multiply by <span class=\"frac\"><span class=\"num\">desired unit</span><span class=\"den\">given unit</span></span></span>",
+    "plain": "Multiply by conversion factors so units cancel.",
+    "when": "Convert units.",
+    "hook": "Arrange the fraction so the unwanted unit cancels.",
+    "example": "5,104 yards ÷ 1,760 yards/mile ≈ 2.9 miles.",
+    "mistake": "Upside-down conversion factor.",
+    "image": null
+  },
+  {
+    "id": "systems-solutions",
+    "name": "Number of solutions to a system",
+    "domain": "Algebra",
+    "topicIds": [
+      5,
+      6
+    ],
+    "given": false,
+    "html": "<span class=\"math\">same slope + different intercept → no solution<br>same slope + same intercept → infinitely many</span>",
+    "plain": "Same slope and different intercept = no solution. Same slope and same intercept = infinitely many.",
+    "when": "Decide whether a system has no solution, one solution, or infinitely many.",
+    "hook": "Parallel lines never meet; the same line overlaps forever.",
+    "example": "y = 2x + 1 and y = 2x + 5 → no solution.",
+    "mistake": "Assuming any two equations intersect once.",
+    "image": null
+  },
+  {
+    "id": "quadratic-formula",
+    "name": "Quadratic formula",
+    "domain": "Advanced Math",
+    "topicIds": [
+      8
+    ],
+    "given": false,
+    "html": "<span class=\"math\">x = <span class=\"frac\"><span class=\"num\">−b ± √(b<sup>2</sup> − 4ac)</span><span class=\"den\">2a</span></span></span>",
+    "plain": "x = (-b ± sqrt(b^2 - 4ac)) / (2a)",
+    "when": "Solve a quadratic that does not factor easily.",
+    "hook": "Negative b, plus or minus, root, b squared minus four a c, all over two a.",
+    "example": "x² + 5x + 6 = 0 → x = −2 or −3.",
+    "mistake": "Dropping the ± or losing the negative sign on b.",
+    "image": "assets/formulas/image4.webp"
+  },
+  {
+    "id": "vertex-form",
+    "name": "Vertex form",
+    "domain": "Advanced Math",
+    "topicIds": [
+      8
+    ],
+    "given": false,
+    "html": "<span class=\"math\">y = a(x − h)<sup>2</sup> + k → vertex (h, k)</span>",
+    "plain": "y = a(x - h)^2 + k, vertex (h, k)",
+    "when": "Find the minimum or maximum of a parabola.",
+    "hook": "The vertex is already written as (h, k).",
+    "example": "y = (x − 4)² + 7 → vertex (4, 7).",
+    "mistake": "Using (h, −k) instead of (h, k).",
+    "image": null
+  },
+  {
+    "id": "vertex-x",
+    "name": "Vertex x-coordinate",
+    "domain": "Advanced Math",
+    "topicIds": [
+      8
+    ],
+    "given": false,
+    "html": "<span class=\"math\">x = <span class=\"frac\"><span class=\"num\">−b</span><span class=\"den\">2a</span></span></span>",
+    "plain": "x = -b / (2a)",
+    "when": "Find the vertex of y = ax² + bx + c.",
+    "hook": "Negative b over two a.",
+    "example": "y = x² − 6x + 5 → x = 6/2 = 3.",
+    "mistake": "Forgetting the negative sign.",
+    "image": null
+  },
+  {
+    "id": "discriminant",
+    "name": "Discriminant",
+    "domain": "Advanced Math",
+    "topicIds": [
+      8
+    ],
+    "given": false,
+    "html": "<span class=\"math\">D = b<sup>2</sup> − 4ac</span>",
+    "plain": "D = b^2 - 4ac",
+    "when": "Count real solutions without solving.",
+    "hook": "Positive = two, zero = one, negative = none.",
+    "example": "D = 25 − 24 = 1 > 0 → two real solutions.",
+    "mistake": "Confusing D < 0 with “no solutions at all” instead of “no real solutions.”",
+    "image": null
+  },
+  {
+    "id": "exponential",
+    "name": "Exponential function",
+    "domain": "Advanced Math",
+    "topicIds": [
+      9
+    ],
+    "given": false,
+    "html": "<span class=\"math\">f(x) = a · b<sup>x</sup></span>",
+    "plain": "f(x) = a × b^x",
+    "when": "Model growth or decay.",
+    "hook": "a is the starting value; b is the multiplier.",
+    "example": "f(x) = 5(1.2)^x grows by 20% each step.",
+    "mistake": "Treating b as a percent instead of a multiplier.",
+    "image": "assets/formulas/image5.webp"
+  },
+  {
+    "id": "growth-decay",
+    "name": "Growth and decay factor",
+    "domain": "Advanced Math",
+    "topicIds": [
+      9
+    ],
+    "given": false,
+    "html": "<span class=\"math\">b > 1 → growth<br>0 < b < 1 → decay</span>",
+    "plain": "b > 1 growth, 0 < b < 1 decay",
+    "when": "Decide whether an exponential model grows or shrinks.",
+    "hook": "Bigger than 1 grows; between 0 and 1 shrinks.",
+    "example": "0.64 → decay of 36% per period.",
+    "mistake": "Calling 0.64 a 64% decrease instead of 36%.",
+    "image": null
+  },
+  {
+    "id": "compound-growth",
+    "name": "Compound growth",
+    "domain": "Advanced Math",
+    "topicIds": [
+      9
+    ],
+    "given": false,
+    "html": "<span class=\"math\">A = P(1 + <span class=\"frac\"><span class=\"num\">r</span><span class=\"den\">n</span></span>)<sup>nt</sup></span>",
+    "plain": "A = P(1 + r/n)^(nt)",
+    "when": "Interest or repeated percent growth.",
+    "hook": "Start with P, add the rate per compounding period, repeat nt times.",
+    "example": "P=1000, r=0.06, n=12, t=2 → A ≈ 1127.16.",
+    "mistake": "Using the percent as a whole number.",
+    "image": null
+  },
+  {
+    "id": "exponent-product",
+    "name": "Product rule for exponents",
+    "domain": "Advanced Math",
+    "topicIds": [
+      10
+    ],
+    "given": false,
+    "html": "<span class=\"math\">x<sup>a</sup> · x<sup>b</sup> = x<sup>a+b</sup></span>",
+    "plain": "x^a × x^b = x^(a+b)",
+    "when": "Multiply powers with the same base.",
+    "hook": "Same base, multiply → add the powers.",
+    "example": "x³ · x⁴ = x⁷.",
+    "mistake": "Multiplying the exponents instead of adding.",
+    "image": null
+  },
+  {
+    "id": "exponent-power",
+    "name": "Power rule for exponents",
+    "domain": "Advanced Math",
+    "topicIds": [
+      10
+    ],
+    "given": false,
+    "html": "<span class=\"math\">(x<sup>a</sup>)<sup>b</sup> = x<sup>ab</sup></span>",
+    "plain": "(x^a)^b = x^(ab)",
+    "when": "Raise a power to a power.",
+    "hook": "Power to a power → multiply.",
+    "example": "(x²)⁵ = x¹⁰.",
+    "mistake": "Adding the exponents.",
+    "image": null
+  },
+  {
+    "id": "rational-exponent",
+    "name": "Rational exponents",
+    "domain": "Advanced Math",
+    "topicIds": [
+      10
+    ],
+    "given": false,
+    "html": "<span class=\"math\">x<sup>1/n</sup> = <sup>n</sup>√x</span>",
+    "plain": "x^(1/n) = nth root of x",
+    "when": "Rewrite roots as exponents.",
+    "hook": "The denominator of the exponent is the root.",
+    "example": "8^(1/3) = ³√8 = 2.",
+    "mistake": "Using the numerator as the root.",
+    "image": null
+  },
+  {
+    "id": "negative-exponent",
+    "name": "Negative exponents",
+    "domain": "Advanced Math",
+    "topicIds": [
+      10
+    ],
+    "given": false,
+    "html": "<span class=\"math\">x<sup>−n</sup> = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">x<sup>n</sup></span></span></span>",
+    "plain": "x^(-n) = 1 / x^n",
+    "when": "Simplify negative powers.",
+    "hook": "Negative power flips to a fraction.",
+    "example": "2⁻³ = 1/8.",
+    "mistake": "Making the answer negative.",
+    "image": null
+  },
+  {
+    "id": "absolute-value",
+    "name": "Absolute value equation",
+    "domain": "Advanced Math",
+    "topicIds": [
+      11
+    ],
+    "given": false,
+    "html": "<span class=\"math\">|x| = a → x = a or x = −a</span>",
+    "plain": "|x| = a → x = a or x = -a",
+    "when": "Solve an absolute value equation.",
+    "hook": "Two cases: positive and negative.",
+    "example": "|x − 5| = 10 → x = 15 or x = −5.",
+    "mistake": "Only writing the positive case; forgetting that |expression| = negative has no solution.",
+    "image": null
+  },
+  {
+    "id": "special-45",
+    "name": "45-45-90 triangle",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      12
+    ],
+    "given": false,
+    "html": "<span class=\"math\">legs: x, x<br>hypotenuse: x√2</span>",
+    "plain": "45-45-90: legs x and x, hypotenuse x√2",
+    "when": "Isosceles right triangles.",
+    "hook": "Two equal legs, hypotenuse is leg times √2.",
+    "example": "Leg 6 → hypotenuse 6√2.",
+    "mistake": "Multiplying the hypotenuse by √2 instead of the leg.",
+    "image": "assets/formulas/image6.webp"
+  },
+  {
+    "id": "special-30",
+    "name": "30-60-90 triangle",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      12
+    ],
+    "given": false,
+    "html": "<span class=\"math\">short leg: x<br>long leg: x√3<br>hypotenuse: 2x</span>",
+    "plain": "30-60-90: x, x√3, 2x",
+    "when": "Right triangles with 30° and 60° angles.",
+    "hook": "Short, short√3, double.",
+    "example": "Short leg 5 → long leg 5√3, hypotenuse 10.",
+    "mistake": "Putting the long leg across from the 30° angle.",
+    "image": "assets/formulas/image6.webp"
+  },
+  {
+    "id": "sohcahtoa",
+    "name": "SOH-CAH-TOA",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      13
+    ],
+    "given": false,
+    "html": "<span class=\"math\">sin θ = <span class=\"frac\"><span class=\"num\">opp</span><span class=\"den\">hyp</span></span><br>cos θ = <span class=\"frac\"><span class=\"num\">adj</span><span class=\"den\">hyp</span></span><br>tan θ = <span class=\"frac\"><span class=\"num\">opp</span><span class=\"den\">adj</span></span></span>",
+    "plain": "sin = opposite/hypotenuse, cos = adjacent/hypotenuse, tan = opposite/adjacent",
+    "when": "Find a side or angle in a right triangle.",
+    "hook": "SOH-CAH-TOA.",
+    "example": "Opposite 3, adjacent 4, hypotenuse 5 → sin θ = 3/5.",
+    "mistake": "Labelling sides from the wrong angle.",
+    "image": "assets/formulas/image7.webp"
+  },
+  {
+    "id": "complementary",
+    "name": "Complementary angles",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      13
+    ],
+    "given": false,
+    "html": "<span class=\"math\">sin θ = cos(90° − θ)</span>",
+    "plain": "sin θ = cos(90° - θ)",
+    "when": "Use one trig ratio to find another.",
+    "hook": "The two non-right angles add to 90°.",
+    "example": "sin 25° = cos 65°.",
+    "mistake": "Using 180° instead of 90°.",
+    "image": null
+  },
+  {
+    "id": "similar-triangles",
+    "name": "Similar triangles",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      14
+    ],
+    "given": false,
+    "html": "<span class=\"math\">corresponding angles equal<br>corresponding sides proportional</span>",
+    "plain": "Corresponding angles are equal and corresponding sides are proportional.",
+    "when": "Find a missing side in similar triangles.",
+    "hook": "Same shape, different size.",
+    "example": "Sides 3,4,5 scaled by 2 → 6,8,10.",
+    "mistake": "Matching the wrong vertices.",
+    "image": null
+  },
+  {
+    "id": "circle-equation",
+    "name": "Circle equation",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      15
+    ],
+    "given": false,
+    "html": "<span class=\"math\">(x − h)<sup>2</sup> + (y − k)<sup>2</sup> = r<sup>2</sup></span>",
+    "plain": "(x - h)^2 + (y - k)^2 = r^2",
+    "when": "Find a circle's center and radius.",
+    "hook": "Center is (h, k), radius is r.",
+    "example": "(x − 2)² + (y + 3)² = 49 → center (2, −3), radius 7.",
+    "mistake": "Forgetting to flip the signs of h and k.",
+    "image": "assets/formulas/image8.webp"
+  },
+  {
+    "id": "arc-measure",
+    "name": "Arc measure",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      15
+    ],
+    "given": false,
+    "html": "<span class=\"math\">arc measure = central angle</span>",
+    "plain": "Arc measure equals its central angle.",
+    "when": "Relate an arc to its central angle.",
+    "hook": "The arc and the central angle match.",
+    "example": "Central angle 100° → arc measure 100°.",
+    "mistake": "Using the inscribed angle instead of the central angle.",
+    "image": null
+  },
+  {
+    "id": "distance-formula",
+    "name": "Distance formula",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      15
+    ],
+    "given": false,
+    "html": "<span class=\"math\">d = √((x<sub>2</sub> − x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> − y<sub>1</sub>)<sup>2</sup>)</span>",
+    "plain": "d = sqrt((x2 - x1)^2 + (y2 - y1)^2)",
+    "when": "Find the distance between two points.",
+    "hook": "Pythagorean theorem on the coordinate plane.",
+    "example": "(1, 2) and (4, 6) → d = 5.",
+    "mistake": "Subtracting the coordinates in the wrong order (it still works if you square).",
+    "image": null
+  },
+  {
+    "id": "midpoint",
+    "name": "Midpoint formula",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      15
+    ],
+    "given": false,
+    "html": "<span class=\"math\">M = (<span class=\"frac\"><span class=\"num\">x<sub>1</sub> + x<sub>2</sub></span><span class=\"den\">2</span></span>, <span class=\"frac\"><span class=\"num\">y<sub>1</sub> + y<sub>2</sub></span><span class=\"den\">2</span></span>)</span>",
+    "plain": "M = ((x1 + x2)/2, (y1 + y2)/2)",
+    "when": "Find the midpoint of a segment.",
+    "hook": "Average the x's, average the y's.",
+    "example": "(2, 4) and (8, 10) → midpoint (5, 7).",
+    "mistake": "Subtracting instead of adding.",
+    "image": null
+  },
+  {
+    "id": "volume-box",
+    "name": "Volume of a rectangular box",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      16
+    ],
+    "given": true,
+    "html": "<span class=\"math\">V = ℓwh</span>",
+    "plain": "V = length × width × height",
+    "when": "Find the volume of a box.",
+    "hook": "Three dimensions multiplied.",
+    "example": "5 × 3 × 4 = 60.",
+    "mistake": "Adding the dimensions.",
+    "image": null
+  },
+  {
+    "id": "volume-cylinder",
+    "name": "Volume of a cylinder",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      16
+    ],
+    "given": true,
+    "html": "<span class=\"math\">V = πr<sup>2</sup>h</span>",
+    "plain": "V = pi r^2 h",
+    "when": "Find the volume of a cylinder.",
+    "hook": "Circle area times height.",
+    "example": "r=3, h=10 → V = 90π ≈ 282.6.",
+    "mistake": "Using diameter for r.",
+    "image": null
+  },
+  {
+    "id": "volume-sphere",
+    "name": "Volume of a sphere",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      16
+    ],
+    "given": true,
+    "html": "<span class=\"math\">V = <span class=\"frac\"><span class=\"num\">4</span><span class=\"den\">3</span></span>πr<sup>3</sup></span>",
+    "plain": "V = (4/3) pi r^3",
+    "when": "Find the volume of a sphere.",
+    "hook": "Four-thirds pi r cubed.",
+    "example": "r=3 → V = 36π.",
+    "mistake": "Forgetting the 4/3.",
+    "image": null
+  },
+  {
+    "id": "volume-cone",
+    "name": "Volume of a cone",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      16
+    ],
+    "given": true,
+    "html": "<span class=\"math\">V = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>πr<sup>2</sup>h</span>",
+    "plain": "V = (1/3) pi r^2 h",
+    "when": "Find the volume of a cone.",
+    "hook": "One-third of a cylinder.",
+    "example": "r=3, h=4 → V = 12π.",
+    "mistake": "Using the diameter.",
+    "image": null
+  },
+  {
+    "id": "volume-pyramid",
+    "name": "Volume of a pyramid",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      16
+    ],
+    "given": true,
+    "html": "<span class=\"math\">V = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>ℓwh</span>",
+    "plain": "V = (1/3) length × width × height",
+    "when": "Find the volume of a pyramid.",
+    "hook": "One-third of a box.",
+    "example": "ℓ=6, w=3, h=5 → V = 30.",
+    "mistake": "Forgetting the 1/3.",
+    "image": null
+  },
+  {
+    "id": "surface-box",
+    "name": "Surface area of a box",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      17
+    ],
+    "given": false,
+    "html": "<span class=\"math\">SA = 2(ℓw + ℓh + wh)</span>",
+    "plain": "SA = 2(lw + lh + wh)",
+    "when": "Find the total outside area of a box.",
+    "hook": "Three pairs of faces.",
+    "example": "4,3,2 → SA = 2(12+8+6) = 52.",
+    "mistake": "Forgetting to double each pair.",
+    "image": null
+  },
+  {
+    "id": "surface-cube",
+    "name": "Surface area of a cube",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      17
+    ],
+    "given": false,
+    "html": "<span class=\"math\">SA = 6s<sup>2</sup></span>",
+    "plain": "SA = 6s^2",
+    "when": "Find the surface area of a cube.",
+    "hook": "Six identical square faces.",
+    "example": "s=4 → SA = 96.",
+    "mistake": "Using s³.",
+    "image": null
+  },
+  {
+    "id": "surface-cylinder",
+    "name": "Surface area of a cylinder",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      17
+    ],
+    "given": false,
+    "html": "<span class=\"math\">SA = 2πr<sup>2</sup> + 2πrh</span>",
+    "plain": "SA = 2 pi r^2 + 2 pi r h",
+    "when": "Find the surface area of a cylinder.",
+    "hook": "Two circular ends plus the side.",
+    "example": "r=3, h=10 → SA = 18π + 60π = 78π.",
+    "mistake": "Forgetting one of the circular ends.",
+    "image": null
+  },
+  {
+    "id": "parallel-angles",
+    "name": "Parallel lines and a transversal",
+    "domain": "Geometry & Trig",
+    "topicIds": [
+      18
+    ],
+    "given": false,
+    "html": "<span class=\"math\">vertical & corresponding angles equal<br>same-side interior angles sum to 180°</span>",
+    "plain": "Vertical and corresponding angles are equal; same-side interior angles sum to 180 degrees.",
+    "when": "Find angles formed by parallel lines.",
+    "hook": "Equal across, 180° along the same side.",
+    "example": "65° → corresponding 65°, same-side interior 115°.",
+    "mistake": "Using 90° instead of 180°.",
+    "image": "assets/formulas/image9.webp"
+  },
+  {
+    "id": "mean",
+    "name": "Mean",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      19
+    ],
+    "given": false,
+    "html": "<span class=\"math\">mean = <span class=\"frac\"><span class=\"num\">sum of values</span><span class=\"den\">number of values</span></span></span>",
+    "plain": "mean = sum / count",
+    "when": "Find the average.",
+    "hook": "Add everything, divide by how many.",
+    "example": "2,3,3,5,7 → 20/5 = 4.",
+    "mistake": "Dividing by the wrong count.",
+    "image": null
+  },
+  {
+    "id": "median",
+    "name": "Median",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      19
+    ],
+    "given": false,
+    "html": "<span class=\"math\">middle value after sorting</span>",
+    "plain": "Middle value after sorting; average the two middle values if the count is even.",
+    "when": "Find the middle of a data set.",
+    "hook": "Sort first, then find the middle.",
+    "example": "2,3,3,5,7 → median 3.",
+    "mistake": "Forgetting to sort.",
+    "image": null
+  },
+  {
+    "id": "mode",
+    "name": "Mode",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      19
+    ],
+    "given": false,
+    "html": "<span class=\"math\">most frequent value</span>",
+    "plain": "The value that appears most often.",
+    "when": "Find the most common value.",
+    "hook": "Mode = most often.",
+    "example": "2,3,3,5,7 → mode 3.",
+    "mistake": "Confusing mode with median.",
+    "image": null
+  },
+  {
+    "id": "range",
+    "name": "Range",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      19
+    ],
+    "given": false,
+    "html": "<span class=\"math\">range = max − min</span>",
+    "plain": "range = maximum - minimum",
+    "when": "Find the spread of a data set.",
+    "hook": "Biggest minus smallest.",
+    "example": "2,3,3,5,7 → 7 − 2 = 5.",
+    "mistake": "Subtracting the mean.",
+    "image": null
+  },
+  {
+    "id": "probability",
+    "name": "Probability",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      20
+    ],
+    "given": false,
+    "html": "<span class=\"math\">P(event) = <span class=\"frac\"><span class=\"num\">favorable outcomes</span><span class=\"den\">total outcomes</span></span></span>",
+    "plain": "P(event) = favorable / total",
+    "when": "Find the chance of an event.",
+    "hook": "Favorable over total.",
+    "example": "30 red out of 100 → P(red) = 30/100 = 0.30.",
+    "mistake": "Using the total of the wrong group.",
+    "image": null
+  },
+  {
+    "id": "complement",
+    "name": "Complement rule",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      20
+    ],
+    "given": false,
+    "html": "<span class=\"math\">P(not E) = 1 − P(E)</span>",
+    "plain": "P(not E) = 1 - P(E)",
+    "when": "Find the probability that an event does not happen.",
+    "hook": "One minus the chance it does.",
+    "example": "P(rain) = 0.3 → P(no rain) = 0.7.",
+    "mistake": "Subtracting from 100 instead of 1.",
+    "image": null
+  },
+  {
+    "id": "two-way",
+    "name": "Two-way table probability",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      20
+    ],
+    "given": false,
+    "html": "<span class=\"math\">P = <span class=\"frac\"><span class=\"num\">count in category</span><span class=\"den\">grand total</span></span></span>",
+    "plain": "P = count in category / grand total",
+    "when": "Read a two-way frequency table.",
+    "hook": "The denominator is the group the question asks about.",
+    "example": "25 of 100 → 25/100.",
+    "mistake": "Using the row total when the question asks about the whole table.",
+    "image": null
+  },
+  {
+    "id": "margin-error",
+    "name": "Margin of error",
+    "domain": "Data & Statistics",
+    "topicIds": [
+      21
+    ],
+    "given": false,
+    "html": "<span class=\"math\">estimate ± margin → [p − m, p + m]</span>",
+    "plain": "estimate ± margin of error gives the plausible interval.",
+    "when": "Interpret a survey estimate.",
+    "hook": "A range, not an exact value.",
+    "example": "0.49 ± 0.04 → 0.45 to 0.53.",
+    "mistake": "Saying the true value is exactly the estimate.",
+    "image": null
+  }
+]

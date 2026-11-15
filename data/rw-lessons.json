@@ -1,0 +1,398 @@
+[
+  {
+    "id": "rw-words-in-context",
+    "title": "Words in Context",
+    "domain": "Reading & Writing",
+    "skill": "words-in-context",
+    "summary": "Predict the meaning before you look at the choices.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Read the sentence, cover the four choices, and predict a simple word that fits. Then pick the choice closest to your prediction."
+      },
+      {
+        "type": "p",
+        "html": "Check three things: meaning, tone, and logic. A word can be advanced and still be wrong."
+      },
+      {
+        "type": "callout",
+        "html": "Example: “Although the results were disappointing, the team remained ___.” The contrast word “although” tells you the team stayed hopeful or persistent, not discouraged."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>A word that sounds academic but does not fit the sentence.</li><li>A word with the right meaning but the wrong tone.</li><li>A word that fits the first half of the sentence but breaks the logic of the second half.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-text-structure",
+    "title": "Text Structure & Purpose",
+    "domain": "Reading & Writing",
+    "skill": "text-structure",
+    "summary": "Ask what each sentence is doing, not just what it says.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Label each sentence with a job: claim, evidence, example, contrast, problem, or solution. Then match the question to the job."
+      },
+      {
+        "type": "p",
+        "html": "Common structures are problem–solution, misconception–correction, claim–evidence, and comparison."
+      },
+      {
+        "type": "callout",
+        "html": "If the first sentence says what people usually believe and the next says “In fact,” the passage is probably correcting a misconception."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>A true statement that does not describe the structure.</li><li>A choice that describes one detail instead of the whole passage.</li><li>A choice that uses the right words but reverses the relationship.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-cross-text",
+    "title": "Cross-Text Connections",
+    "domain": "Reading & Writing",
+    "skill": "cross-text",
+    "summary": "Summarize each text in one sentence, then compare.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Write a one-sentence summary of Text 1 and Text 2. Then ask: do they agree, disagree, qualify each other, or discuss different aspects of the same issue?"
+      },
+      {
+        "type": "p",
+        "html": "Look for response words such as “however,” “yet,” “although,” and “in addition.”"
+      },
+      {
+        "type": "callout",
+        "html": "Do not assume the authors disagree just because they focus on different details. One may be adding a complication to the other's point."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Choosing a relationship that is stronger than the texts support.</li><li>Confusing “different emphasis” with “opposite opinion.”</li><li>Ignoring a qualifier such as “in some cases.”</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-central-ideas",
+    "title": "Central Ideas & Details",
+    "domain": "Reading & Writing",
+    "skill": "central-ideas",
+    "summary": "Main idea first, exact detail second.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "For main-idea questions, ask what the passage is mostly about. The answer should cover the whole passage, not one interesting detail."
+      },
+      {
+        "type": "p",
+        "html": "For detail questions, go back to the text and find the exact sentence. Do not rely on memory."
+      },
+      {
+        "type": "callout",
+        "html": "A correct main idea is broad enough to cover the passage but narrow enough to be meaningful. “Birds are interesting” is too broad; “A tracking study revealed a new migration route” is specific."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>A true detail that is too narrow to be the main idea.</li><li>A statement that is broader than the passage.</li><li>An answer that adds information the passage never states.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-evidence-text",
+    "title": "Command of Evidence — Textual",
+    "domain": "Reading & Writing",
+    "skill": "evidence-textual",
+    "summary": "The evidence must directly support the claim.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Find the claim first. Then test each choice by asking: if this were true, would the claim become more believable?"
+      },
+      {
+        "type": "p",
+        "html": "The best evidence is specific, relevant, and directly connected to the claim."
+      },
+      {
+        "type": "callout",
+        "html": "A statement can be true and still be wrong if it does not support the specific claim."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Evidence that supports a different claim.</li><li>Evidence that is too general.</li><li>A quotation that mentions the topic but not the claim.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-evidence-quant",
+    "title": "Command of Evidence — Quantitative",
+    "domain": "Reading & Writing",
+    "skill": "evidence-quantitative",
+    "summary": "Read the labels, units, and exact comparison.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Read the graph or table title, axis labels, and units before you look at the choices. Then match the exact trend, value, or comparison in the claim."
+      },
+      {
+        "type": "p",
+        "html": "Check whether the claim is about an increase, a decrease, a difference, or a highest/lowest value."
+      },
+      {
+        "type": "callout",
+        "html": "A choice can contain a correct number and still be wrong if it answers the wrong question."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Mixing up percentages and raw numbers.</li><li>Ignoring the units.</li><li>Choosing a true fact that does not support the claim.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-inferences",
+    "title": "Inferences",
+    "domain": "Reading & Writing",
+    "skill": "inference",
+    "summary": "Make the smallest logical step, not a leap.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Treat an inference like a “must be true” question. The answer has to follow from the text, even if it is not stated word for word."
+      },
+      {
+        "type": "p",
+        "html": "Ask: what would a careful reader conclude from these details?"
+      },
+      {
+        "type": "callout",
+        "html": "If the passage says the road was closed after a storm and drivers took a longer route, you can infer the storm affected the road. You cannot infer the exact amount of damage."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>A reasonable idea that the passage never supports.</li><li>An overstatement of what the passage says.</li><li>A prediction about the future that is not justified.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-rhetorical-synthesis",
+    "title": "Rhetorical Synthesis",
+    "domain": "Reading & Writing",
+    "skill": "rhetorical-synthesis",
+    "summary": "Read the goal first, then use only the notes.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Read the goal before the bullet notes. Then choose the sentence that accomplishes that goal using the relevant notes."
+      },
+      {
+        "type": "p",
+        "html": "Do not add outside information. Do not include an interesting note that does not help the goal."
+      },
+      {
+        "type": "callout",
+        "html": "If the goal is to emphasize a contrast, the best sentence will put the two contrasting facts next to each other."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>A sentence that is accurate but does not meet the goal.</li><li>A sentence that includes irrelevant notes.</li><li>A sentence that changes the meaning of a note.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-transitions",
+    "title": "Transitions",
+    "domain": "Reading & Writing",
+    "skill": "transitions",
+    "summary": "Name the relationship before you choose the word.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Cover the choices and describe the relationship between the two sentences: contrast, cause and effect, addition, example, or sequence."
+      },
+      {
+        "type": "p",
+        "html": "Then choose the transition that signals that exact relationship."
+      },
+      {
+        "type": "callout",
+        "html": "Contrast: however, nevertheless, although. Cause/effect: therefore, consequently, as a result. Addition: moreover, furthermore, in addition."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>A transition that sounds sophisticated but signals the wrong relationship.</li><li>Choosing a cause/effect word when the sentences are actually contrasting.</li><li>Ignoring a “not” or “never” that flips the logic.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-boundaries",
+    "title": "Boundaries",
+    "domain": "Reading & Writing",
+    "skill": "boundaries",
+    "summary": "Decide whether the parts are complete sentences, lists, or extra information.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Check whether each side of the blank can stand alone as a complete sentence."
+      },
+      {
+        "type": "p",
+        "html": "Two complete sentences need a period, a semicolon, or a comma + coordinating conjunction. A colon introduces a list or explanation. A dash can add emphasis."
+      },
+      {
+        "type": "callout",
+        "html": "A comma alone cannot join two complete sentences. That is a comma splice."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Using a comma between two independent clauses.</li><li>Using a semicolon before a list instead of a colon.</li><li>Adding punctuation that turns a complete sentence into a fragment.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-form-structure",
+    "title": "Form, Structure, and Sense",
+    "domain": "Reading & Writing",
+    "skill": "form-structure-sense",
+    "summary": "Find the real subject and match the verb.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "For subject–verb agreement, find the subject and ignore prepositional phrases. “The number of students” is singular because the subject is “number.”"
+      },
+      {
+        "type": "p",
+        "html": "Check pronoun agreement, verb tense, modifiers, and parallelism the same way: find the word being described or matched."
+      },
+      {
+        "type": "callout",
+        "html": "A verb agrees with its subject, not with the nearest noun. “Neither the teacher nor the students were ready” uses “were” because the closer subject is plural."
+      },
+      {
+        "type": "h3",
+        "html": "Common traps"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>Matching the verb to the noun immediately before it.</li><li>Using a singular pronoun for a plural antecedent.</li><li>Putting a modifier next to the wrong noun.</li></ul>"
+      }
+    ]
+  },
+  {
+    "id": "rw-pacing",
+    "title": "Reading & Writing Pacing",
+    "domain": "Reading & Writing",
+    "skill": "strategy",
+    "summary": "Read for structure, answer with evidence, and keep moving.",
+    "blocks": [
+      {
+        "type": "h3",
+        "html": "The move"
+      },
+      {
+        "type": "p",
+        "html": "Read the question first when it asks about a specific function or evidence. For main-idea questions, read the whole passage quickly and then answer."
+      },
+      {
+        "type": "p",
+        "html": "For grammar questions, read the sentence without the blank first. Your ear will often catch the error."
+      },
+      {
+        "type": "p",
+        "html": "Flag a question if it takes too long and come back. Do not let one hard question eat the section."
+      },
+      {
+        "type": "h3",
+        "html": "Time targets"
+      },
+      {
+        "type": "ul",
+        "html": "<ul><li>About 70–75 seconds per Reading & Writing question.</li><li>Leave 2–3 minutes at the end to check flagged questions.</li><li>If two answers seem correct, choose the one that is more precise and directly supported.</li></ul>"
+      }
+    ]
+  }
+]

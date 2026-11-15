@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "formula-circle-area",
+    "deck": "Math Formulas",
+    "front": "What is the Area of a circle?",
+    "back": "<span class=\"math\">A = πr<sup>2</sup></span><p class=\"card-note\">Find the space inside a circle.</p><p class=\"card-hook\">Area is pi times radius squared.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "circle-area",
+    "type": "formula"
+  },
+  {
+    "id": "formula-circumference",
+    "deck": "Math Formulas",
+    "front": "What is the Circumference of a circle?",
+    "back": "<span class=\"math\">C = 2πr</span><p class=\"card-note\">Find the distance around a circle.</p><p class=\"card-hook\">Circumference is two pi r.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "circumference",
+    "type": "formula"
+  },
+  {
+    "id": "formula-rectangle-area",
+    "deck": "Math Formulas",
+    "front": "What is the Area of a rectangle?",
+    "back": "<span class=\"math\">A = ℓw</span><p class=\"card-note\">Find the space inside a rectangle.</p><p class=\"card-hook\">Length times width.</p>",
+    "topicIds": [],
+    "formulaId": "rectangle-area",
+    "type": "formula"
+  },
+  {
+    "id": "formula-triangle-area",
+    "deck": "Math Formulas",
+    "front": "What is the Area of a triangle?",
+    "back": "<span class=\"math\">A = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">2</span></span>bh</span><p class=\"card-note\">Find the space inside a triangle.</p><p class=\"card-hook\">Half base times height.</p>",
+    "topicIds": [],
+    "formulaId": "triangle-area",
+    "type": "formula"
+  },
+  {
+    "id": "formula-pythagorean",
+    "deck": "Math Formulas",
+    "front": "What is the Pythagorean theorem?",
+    "back": "<span class=\"math\">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></span><p class=\"card-note\">Right triangles: find a missing side.</p><p class=\"card-hook\">The two legs squared equal the hypotenuse squared.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "pythagorean",
+    "type": "formula"
+  },
+  {
+    "id": "formula-circle-angles",
+    "deck": "Math Formulas",
+    "front": "What is the Circle arc measure?",
+    "back": "<span class=\"math\">360° = 2π radians</span><p class=\"card-note\">Convert between degrees and radians.</p><p class=\"card-hook\">A full circle is 360° or 2π.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "circle-angles",
+    "type": "formula"
+  },
+  {
+    "id": "formula-triangle-angles",
+    "deck": "Math Formulas",
+    "front": "What is the Triangle angle sum?",
+    "back": "<span class=\"math\">A + B + C = 180°</span><p class=\"card-note\">Find a missing angle in any triangle.</p><p class=\"card-hook\">Every triangle holds 180°.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "triangle-angles",
+    "type": "formula"
+  },
+  {
+    "id": "formula-slope",
+    "deck": "Math Formulas",
+    "front": "What is the Slope formula?",
+    "back": "<span class=\"math\">m = <span class=\"frac\"><span class=\"num\">y<sub>2</sub> − y<sub>1</sub></span><span class=\"den\">x<sub>2</sub> − x<sub>1</sub></span></span> = <span class=\"frac\"><span class=\"num\">rise</span><span class=\"den\">run</span></span></span><p class=\"card-note\">Find steepness or rate of change from two points.</p><p class=\"card-hook\">Rise over run; y's on top, x's on bottom.</p>",
+    "topicIds": [
+      7,
+      24
+    ],
+    "formulaId": "slope",
+    "type": "formula"
+  },
+  {
+    "id": "formula-slope-intercept",
+    "deck": "Math Formulas",
+    "front": "What is the Slope-intercept form?",
+    "back": "<span class=\"math\">y = mx + b</span><p class=\"card-note\">Graph a line or read slope and y-intercept.</p><p class=\"card-hook\">m is the slope, b is where it starts on the y-axis.</p>",
+    "topicIds": [
+      7
+    ],
+    "formulaId": "slope-intercept",
+    "type": "formula"
+  },
+  {
+    "id": "formula-point-slope",
+    "deck": "Math Formulas",
+    "front": "What is the Point-slope form?",
+    "back": "<span class=\"math\">y − y<sub>1</sub> = m(x − x<sub>1</sub>)</span><p class=\"card-note\">You know the slope and one point.</p><p class=\"card-hook\">Plug the point and slope into the template.</p>",
+    "topicIds": [
+      7
+    ],
+    "formulaId": "point-slope",
+    "type": "formula"
+  },
+  {
+    "id": "formula-standard-form",
+    "deck": "Math Formulas",
+    "front": "What is the Standard form of a line?",
+    "back": "<span class=\"math\">Ax + By = C</span><p class=\"card-note\">Rewrite a linear equation in standard form.</p><p class=\"card-hook\">Both variables on the left, constant on the right.</p>",
+    "topicIds": [
+      7
+    ],
+    "formulaId": "standard-form",
+    "type": "formula"
+  },
+  {
+    "id": "formula-linear-inequality",
+    "deck": "Math Formulas",
+    "front": "What is the Solving a linear inequality?",
+    "back": "<span class=\"math\">flip the sign when × or ÷ by a negative</span><p class=\"card-note\">Solve inequalities.</p><p class=\"card-hook\">Negative flip: the only rule that changes the sign.</p>",
+    "topicIds": [
+      6
+    ],
+    "formulaId": "linear-inequality",
+    "type": "formula"
+  },
+  {
+    "id": "formula-average-rate",
+    "deck": "Math Formulas",
+    "front": "What is the Average rate of change?",
+    "back": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">f(b) − f(a)</span><span class=\"den\">b − a</span></span></span><p class=\"card-note\">Find the average change between two inputs.</p><p class=\"card-hook\">Change in output over change in input.</p>",
+    "topicIds": [
+      7
+    ],
+    "formulaId": "average-rate",
+    "type": "formula"
+  },
+  {
+    "id": "formula-percent",
+    "deck": "Math Formulas",
+    "front": "What is the Percent of a number?",
+    "back": "<span class=\"math\">part = <span class=\"frac\"><span class=\"num\">percent</span><span class=\"den\">100</span></span> × whole</span><p class=\"card-note\">Find a percentage of a total.</p><p class=\"card-hook\">Percent means per 100.</p>",
+    "topicIds": [
+      3
+    ],
+    "formulaId": "percent",
+    "type": "formula"
+  },
+  {
+    "id": "formula-percent-change",
+    "deck": "Math Formulas",
+    "front": "What is the Percent change?",
+    "back": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">new − old</span><span class=\"den\">old</span></span> × 100%</span><p class=\"card-note\">Find an increase or decrease.</p><p class=\"card-hook\">Change divided by the original.</p>",
+    "topicIds": [
+      3
+    ],
+    "formulaId": "percent-change",
+    "type": "formula"
+  },
+  {
+    "id": "formula-percent-more-less",
+    "deck": "Math Formulas",
+    "front": "What is the Percent more or less?",
+    "back": "<span class=\"math\">new = old × (1 ± <span class=\"frac\"><span class=\"num\">p</span><span class=\"den\">100</span></span>)</span><p class=\"card-note\">Apply a percent increase or decrease.</p><p class=\"card-hook\">Add or subtract the percent from 1.</p>",
+    "topicIds": [
+      3
+    ],
+    "formulaId": "percent-more-less",
+    "type": "formula"
+  },
+  {
+    "id": "formula-ratio-proportion",
+    "deck": "Math Formulas",
+    "front": "What is the Ratio and proportion?",
+    "back": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">a</span><span class=\"den\">b</span></span> = <span class=\"frac\"><span class=\"num\">c</span><span class=\"den\">d</span></span> → ad = bc</span><p class=\"card-note\">Solve scale, ratio, and unit problems.</p><p class=\"card-hook\">Cross-multiply.</p>",
+    "topicIds": [
+      3
+    ],
+    "formulaId": "ratio-proportion",
+    "type": "formula"
+  },
+  {
+    "id": "formula-unit-conversion",
+    "deck": "Math Formulas",
+    "front": "What is the Unit conversion?",
+    "back": "<span class=\"math\">multiply by <span class=\"frac\"><span class=\"num\">desired unit</span><span class=\"den\">given unit</span></span></span><p class=\"card-note\">Convert units.</p><p class=\"card-hook\">Arrange the fraction so the unwanted unit cancels.</p>",
+    "topicIds": [
+      22
+    ],
+    "formulaId": "unit-conversion",
+    "type": "formula"
+  },
+  {
+    "id": "formula-systems-solutions",
+    "deck": "Math Formulas",
+    "front": "What is the Number of solutions to a system?",
+    "back": "<span class=\"math\">same slope + different intercept → no solution<br>same slope + same intercept → infinitely many</span><p class=\"card-note\">Decide whether a system has no solution, one solution, or infinitely many.</p><p class=\"card-hook\">Parallel lines never meet; the same line overlaps forever.</p>",
+    "topicIds": [
+      5,
+      6
+    ],
+    "formulaId": "systems-solutions",
+    "type": "formula"
+  },
+  {
+    "id": "formula-quadratic-formula",
+    "deck": "Math Formulas",
+    "front": "What is the Quadratic formula?",
+    "back": "<span class=\"math\">x = <span class=\"frac\"><span class=\"num\">−b ± √(b<sup>2</sup> − 4ac)</span><span class=\"den\">2a</span></span></span><p class=\"card-note\">Solve a quadratic that does not factor easily.</p><p class=\"card-hook\">Negative b, plus or minus, root, b squared minus four a c, all over two a.</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "quadratic-formula",
+    "type": "formula"
+  },
+  {
+    "id": "formula-vertex-form",
+    "deck": "Math Formulas",
+    "front": "What is the Vertex form?",
+    "back": "<span class=\"math\">y = a(x − h)<sup>2</sup> + k → vertex (h, k)</span><p class=\"card-note\">Find the minimum or maximum of a parabola.</p><p class=\"card-hook\">The vertex is already written as (h, k).</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "vertex-form",
+    "type": "formula"
+  },
+  {
+    "id": "formula-vertex-x",
+    "deck": "Math Formulas",
+    "front": "What is the Vertex x-coordinate?",
+    "back": "<span class=\"math\">x = <span class=\"frac\"><span class=\"num\">−b</span><span class=\"den\">2a</span></span></span><p class=\"card-note\">Find the vertex of y = ax² + bx + c.</p><p class=\"card-hook\">Negative b over two a.</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "vertex-x",
+    "type": "formula"
+  },
+  {
+    "id": "formula-discriminant",
+    "deck": "Math Formulas",
+    "front": "What is the Discriminant?",
+    "back": "<span class=\"math\">D = b<sup>2</sup> − 4ac</span><p class=\"card-note\">Count real solutions without solving.</p><p class=\"card-hook\">Positive = two, zero = one, negative = none.</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "discriminant",
+    "type": "formula"
+  },
+  {
+    "id": "formula-exponential",
+    "deck": "Math Formulas",
+    "front": "What is the Exponential function?",
+    "back": "<span class=\"math\">f(x) = a · b<sup>x</sup></span><p class=\"card-note\">Model growth or decay.</p><p class=\"card-hook\">a is the starting value; b is the multiplier.</p>",
+    "topicIds": [
+      9
+    ],
+    "formulaId": "exponential",
+    "type": "formula"
+  },
+  {
+    "id": "formula-growth-decay",
+    "deck": "Math Formulas",
+    "front": "What is the Growth and decay factor?",
+    "back": "<span class=\"math\">b > 1 → growth<br>0 < b < 1 → decay</span><p class=\"card-note\">Decide whether an exponential model grows or shrinks.</p><p class=\"card-hook\">Bigger than 1 grows; between 0 and 1 shrinks.</p>",
+    "topicIds": [
+      9
+    ],
+    "formulaId": "growth-decay",
+    "type": "formula"
+  },
+  {
+    "id": "formula-compound-growth",
+    "deck": "Math Formulas",
+    "front": "What is the Compound growth?",
+    "back": "<span class=\"math\">A = P(1 + <span class=\"frac\"><span class=\"num\">r</span><span class=\"den\">n</span></span>)<sup>nt</sup></span><p class=\"card-note\">Interest or repeated percent growth.</p><p class=\"card-hook\">Start with P, add the rate per compounding period, repeat nt times.</p>",
+    "topicIds": [
+      9
+    ],
+    "formulaId": "compound-growth",
+    "type": "formula"
+  },
+  {
+    "id": "formula-exponent-product",
+    "deck": "Math Formulas",
+    "front": "What is the Product rule for exponents?",
+    "back": "<span class=\"math\">x<sup>a</sup> · x<sup>b</sup> = x<sup>a+b</sup></span><p class=\"card-note\">Multiply powers with the same base.</p><p class=\"card-hook\">Same base, multiply → add the powers.</p>",
+    "topicIds": [
+      10
+    ],
+    "formulaId": "exponent-product",
+    "type": "formula"
+  },
+  {
+    "id": "formula-exponent-power",
+    "deck": "Math Formulas",
+    "front": "What is the Power rule for exponents?",
+    "back": "<span class=\"math\">(x<sup>a</sup>)<sup>b</sup> = x<sup>ab</sup></span><p class=\"card-note\">Raise a power to a power.</p><p class=\"card-hook\">Power to a power → multiply.</p>",
+    "topicIds": [
+      10
+    ],
+    "formulaId": "exponent-power",
+    "type": "formula"
+  },
+  {
+    "id": "formula-rational-exponent",
+    "deck": "Math Formulas",
+    "front": "What is the Rational exponents?",
+    "back": "<span class=\"math\">x<sup>1/n</sup> = <sup>n</sup>√x</span><p class=\"card-note\">Rewrite roots as exponents.</p><p class=\"card-hook\">The denominator of the exponent is the root.</p>",
+    "topicIds": [
+      10
+    ],
+    "formulaId": "rational-exponent",
+    "type": "formula"
+  },
+  {
+    "id": "formula-negative-exponent",
+    "deck": "Math Formulas",
+    "front": "What is the Negative exponents?",
+    "back": "<span class=\"math\">x<sup>−n</sup> = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">x<sup>n</sup></span></span></span><p class=\"card-note\">Simplify negative powers.</p><p class=\"card-hook\">Negative power flips to a fraction.</p>",
+    "topicIds": [
+      10
+    ],
+    "formulaId": "negative-exponent",
+    "type": "formula"
+  },
+  {
+    "id": "formula-absolute-value",
+    "deck": "Math Formulas",
+    "front": "What is the Absolute value equation?",
+    "back": "<span class=\"math\">|x| = a → x = a or x = −a</span><p class=\"card-note\">Solve an absolute value equation.</p><p class=\"card-hook\">Two cases: positive and negative.</p>",
+    "topicIds": [
+      11
+    ],
+    "formulaId": "absolute-value",
+    "type": "formula"
+  },
+  {
+    "id": "formula-special-45",
+    "deck": "Math Formulas",
+    "front": "What is the 45-45-90 triangle?",
+    "back": "<span class=\"math\">legs: x, x<br>hypotenuse: x√2</span><p class=\"card-note\">Isosceles right triangles.</p><p class=\"card-hook\">Two equal legs, hypotenuse is leg times √2.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "special-45",
+    "type": "formula"
+  },
+  {
+    "id": "formula-special-30",
+    "deck": "Math Formulas",
+    "front": "What is the 30-60-90 triangle?",
+    "back": "<span class=\"math\">short leg: x<br>long leg: x√3<br>hypotenuse: 2x</span><p class=\"card-note\">Right triangles with 30° and 60° angles.</p><p class=\"card-hook\">Short, short√3, double.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "special-30",
+    "type": "formula"
+  },
+  {
+    "id": "formula-sohcahtoa",
+    "deck": "Math Formulas",
+    "front": "What is the SOH-CAH-TOA?",
+    "back": "<span class=\"math\">sin θ = <span class=\"frac\"><span class=\"num\">opp</span><span class=\"den\">hyp</span></span><br>cos θ = <span class=\"frac\"><span class=\"num\">adj</span><span class=\"den\">hyp</span></span><br>tan θ = <span class=\"frac\"><span class=\"num\">opp</span><span class=\"den\">adj</span></span></span><p class=\"card-note\">Find a side or angle in a right triangle.</p><p class=\"card-hook\">SOH-CAH-TOA.</p>",
+    "topicIds": [
+      13
+    ],
+    "formulaId": "sohcahtoa",
+    "type": "formula"
+  },
+  {
+    "id": "formula-complementary",
+    "deck": "Math Formulas",
+    "front": "What is the Complementary angles?",
+    "back": "<span class=\"math\">sin θ = cos(90° − θ)</span><p class=\"card-note\">Use one trig ratio to find another.</p><p class=\"card-hook\">The two non-right angles add to 90°.</p>",
+    "topicIds": [
+      13
+    ],
+    "formulaId": "complementary",
+    "type": "formula"
+  },
+  {
+    "id": "formula-similar-triangles",
+    "deck": "Math Formulas",
+    "front": "What is the Similar triangles?",
+    "back": "<span class=\"math\">corresponding angles equal<br>corresponding sides proportional</span><p class=\"card-note\">Find a missing side in similar triangles.</p><p class=\"card-hook\">Same shape, different size.</p>",
+    "topicIds": [
+      14
+    ],
+    "formulaId": "similar-triangles",
+    "type": "formula"
+  },
+  {
+    "id": "formula-circle-equation",
+    "deck": "Math Formulas",
+    "front": "What is the Circle equation?",
+    "back": "<span class=\"math\">(x − h)<sup>2</sup> + (y − k)<sup>2</sup> = r<sup>2</sup></span><p class=\"card-note\">Find a circle's center and radius.</p><p class=\"card-hook\">Center is (h, k), radius is r.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "circle-equation",
+    "type": "formula"
+  },
+  {
+    "id": "formula-arc-measure",
+    "deck": "Math Formulas",
+    "front": "What is the Arc measure?",
+    "back": "<span class=\"math\">arc measure = central angle</span><p class=\"card-note\">Relate an arc to its central angle.</p><p class=\"card-hook\">The arc and the central angle match.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "arc-measure",
+    "type": "formula"
+  },
+  {
+    "id": "formula-distance-formula",
+    "deck": "Math Formulas",
+    "front": "What is the Distance formula?",
+    "back": "<span class=\"math\">d = √((x<sub>2</sub> − x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> − y<sub>1</sub>)<sup>2</sup>)</span><p class=\"card-note\">Find the distance between two points.</p><p class=\"card-hook\">Pythagorean theorem on the coordinate plane.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "distance-formula",
+    "type": "formula"
+  },
+  {
+    "id": "formula-midpoint",
+    "deck": "Math Formulas",
+    "front": "What is the Midpoint formula?",
+    "back": "<span class=\"math\">M = (<span class=\"frac\"><span class=\"num\">x<sub>1</sub> + x<sub>2</sub></span><span class=\"den\">2</span></span>, <span class=\"frac\"><span class=\"num\">y<sub>1</sub> + y<sub>2</sub></span><span class=\"den\">2</span></span>)</span><p class=\"card-note\">Find the midpoint of a segment.</p><p class=\"card-hook\">Average the x's, average the y's.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "midpoint",
+    "type": "formula"
+  },
+  {
+    "id": "formula-volume-box",
+    "deck": "Math Formulas",
+    "front": "What is the Volume of a rectangular box?",
+    "back": "<span class=\"math\">V = ℓwh</span><p class=\"card-note\">Find the volume of a box.</p><p class=\"card-hook\">Three dimensions multiplied.</p>",
+    "topicIds": [
+      16
+    ],
+    "formulaId": "volume-box",
+    "type": "formula"
+  },
+  {
+    "id": "formula-volume-cylinder",
+    "deck": "Math Formulas",
+    "front": "What is the Volume of a cylinder?",
+    "back": "<span class=\"math\">V = πr<sup>2</sup>h</span><p class=\"card-note\">Find the volume of a cylinder.</p><p class=\"card-hook\">Circle area times height.</p>",
+    "topicIds": [
+      16
+    ],
+    "formulaId": "volume-cylinder",
+    "type": "formula"
+  },
+  {
+    "id": "formula-volume-sphere",
+    "deck": "Math Formulas",
+    "front": "What is the Volume of a sphere?",
+    "back": "<span class=\"math\">V = <span class=\"frac\"><span class=\"num\">4</span><span class=\"den\">3</span></span>πr<sup>3</sup></span><p class=\"card-note\">Find the volume of a sphere.</p><p class=\"card-hook\">Four-thirds pi r cubed.</p>",
+    "topicIds": [
+      16
+    ],
+    "formulaId": "volume-sphere",
+    "type": "formula"
+  },
+  {
+    "id": "formula-volume-cone",
+    "deck": "Math Formulas",
+    "front": "What is the Volume of a cone?",
+    "back": "<span class=\"math\">V = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>πr<sup>2</sup>h</span><p class=\"card-note\">Find the volume of a cone.</p><p class=\"card-hook\">One-third of a cylinder.</p>",
+    "topicIds": [
+      16
+    ],
+    "formulaId": "volume-cone",
+    "type": "formula"
+  },
+  {
+    "id": "formula-volume-pyramid",
+    "deck": "Math Formulas",
+    "front": "What is the Volume of a pyramid?",
+    "back": "<span class=\"math\">V = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">3</span></span>ℓwh</span><p class=\"card-note\">Find the volume of a pyramid.</p><p class=\"card-hook\">One-third of a box.</p>",
+    "topicIds": [
+      16
+    ],
+    "formulaId": "volume-pyramid",
+    "type": "formula"
+  },
+  {
+    "id": "formula-surface-box",
+    "deck": "Math Formulas",
+    "front": "What is the Surface area of a box?",
+    "back": "<span class=\"math\">SA = 2(ℓw + ℓh + wh)</span><p class=\"card-note\">Find the total outside area of a box.</p><p class=\"card-hook\">Three pairs of faces.</p>",
+    "topicIds": [
+      17
+    ],
+    "formulaId": "surface-box",
+    "type": "formula"
+  },
+  {
+    "id": "formula-surface-cube",
+    "deck": "Math Formulas",
+    "front": "What is the Surface area of a cube?",
+    "back": "<span class=\"math\">SA = 6s<sup>2</sup></span><p class=\"card-note\">Find the surface area of a cube.</p><p class=\"card-hook\">Six identical square faces.</p>",
+    "topicIds": [
+      17
+    ],
+    "formulaId": "surface-cube",
+    "type": "formula"
+  },
+  {
+    "id": "formula-surface-cylinder",
+    "deck": "Math Formulas",
+    "front": "What is the Surface area of a cylinder?",
+    "back": "<span class=\"math\">SA = 2πr<sup>2</sup> + 2πrh</span><p class=\"card-note\">Find the surface area of a cylinder.</p><p class=\"card-hook\">Two circular ends plus the side.</p>",
+    "topicIds": [
+      17
+    ],
+    "formulaId": "surface-cylinder",
+    "type": "formula"
+  },
+  {
+    "id": "formula-parallel-angles",
+    "deck": "Math Formulas",
+    "front": "What is the Parallel lines and a transversal?",
+    "back": "<span class=\"math\">vertical & corresponding angles equal<br>same-side interior angles sum to 180°</span><p class=\"card-note\">Find angles formed by parallel lines.</p><p class=\"card-hook\">Equal across, 180° along the same side.</p>",
+    "topicIds": [
+      18
+    ],
+    "formulaId": "parallel-angles",
+    "type": "formula"
+  },
+  {
+    "id": "formula-mean",
+    "deck": "Math Formulas",
+    "front": "What is the Mean?",
+    "back": "<span class=\"math\">mean = <span class=\"frac\"><span class=\"num\">sum of values</span><span class=\"den\">number of values</span></span></span><p class=\"card-note\">Find the average.</p><p class=\"card-hook\">Add everything, divide by how many.</p>",
+    "topicIds": [
+      19
+    ],
+    "formulaId": "mean",
+    "type": "formula"
+  },
+  {
+    "id": "formula-median",
+    "deck": "Math Formulas",
+    "front": "What is the Median?",
+    "back": "<span class=\"math\">middle value after sorting</span><p class=\"card-note\">Find the middle of a data set.</p><p class=\"card-hook\">Sort first, then find the middle.</p>",
+    "topicIds": [
+      19
+    ],
+    "formulaId": "median",
+    "type": "formula"
+  },
+  {
+    "id": "formula-mode",
+    "deck": "Math Formulas",
+    "front": "What is the Mode?",
+    "back": "<span class=\"math\">most frequent value</span><p class=\"card-note\">Find the most common value.</p><p class=\"card-hook\">Mode = most often.</p>",
+    "topicIds": [
+      19
+    ],
+    "formulaId": "mode",
+    "type": "formula"
+  },
+  {
+    "id": "formula-range",
+    "deck": "Math Formulas",
+    "front": "What is the Range?",
+    "back": "<span class=\"math\">range = max − min</span><p class=\"card-note\">Find the spread of a data set.</p><p class=\"card-hook\">Biggest minus smallest.</p>",
+    "topicIds": [
+      19
+    ],
+    "formulaId": "range",
+    "type": "formula"
+  },
+  {
+    "id": "formula-probability",
+    "deck": "Math Formulas",
+    "front": "What is the Probability?",
+    "back": "<span class=\"math\">P(event) = <span class=\"frac\"><span class=\"num\">favorable outcomes</span><span class=\"den\">total outcomes</span></span></span><p class=\"card-note\">Find the chance of an event.</p><p class=\"card-hook\">Favorable over total.</p>",
+    "topicIds": [
+      20
+    ],
+    "formulaId": "probability",
+    "type": "formula"
+  },
+  {
+    "id": "formula-complement",
+    "deck": "Math Formulas",
+    "front": "What is the Complement rule?",
+    "back": "<span class=\"math\">P(not E) = 1 − P(E)</span><p class=\"card-note\">Find the probability that an event does not happen.</p><p class=\"card-hook\">One minus the chance it does.</p>",
+    "topicIds": [
+      20
+    ],
+    "formulaId": "complement",
+    "type": "formula"
+  },
+  {
+    "id": "formula-two-way",
+    "deck": "Math Formulas",
+    "front": "What is the Two-way table probability?",
+    "back": "<span class=\"math\">P = <span class=\"frac\"><span class=\"num\">count in category</span><span class=\"den\">grand total</span></span></span><p class=\"card-note\">Read a two-way frequency table.</p><p class=\"card-hook\">The denominator is the group the question asks about.</p>",
+    "topicIds": [
+      20
+    ],
+    "formulaId": "two-way",
+    "type": "formula"
+  },
+  {
+    "id": "formula-margin-error",
+    "deck": "Math Formulas",
+    "front": "What is the Margin of error?",
+    "back": "<span class=\"math\">estimate ± margin → [p − m, p + m]</span><p class=\"card-note\">Interpret a survey estimate.</p><p class=\"card-hook\">A range, not an exact value.</p>",
+    "topicIds": [
+      21
+    ],
+    "formulaId": "margin-error",
+    "type": "formula"
+  },
+  {
+    "id": "reverse-pythagorean",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Pythagorean theorem</strong><p class=\"card-note\">Right triangles: find a missing side.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "pythagorean",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-slope",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">m = <span class=\"frac\"><span class=\"num\">y<sub>2</sub> − y<sub>1</sub></span><span class=\"den\">x<sub>2</sub> − x<sub>1</sub></span></span> = <span class=\"frac\"><span class=\"num\">rise</span><span class=\"den\">run</span></span></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Slope formula</strong><p class=\"card-note\">Find steepness or rate of change from two points.</p>",
+    "topicIds": [
+      7,
+      24
+    ],
+    "formulaId": "slope",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-slope-intercept",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">y = mx + b</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Slope-intercept form</strong><p class=\"card-note\">Graph a line or read slope and y-intercept.</p>",
+    "topicIds": [
+      7
+    ],
+    "formulaId": "slope-intercept",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-point-slope",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">y − y<sub>1</sub> = m(x − x<sub>1</sub>)</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Point-slope form</strong><p class=\"card-note\">You know the slope and one point.</p>",
+    "topicIds": [
+      7
+    ],
+    "formulaId": "point-slope",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-percent-change",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\"><span class=\"frac\"><span class=\"num\">new − old</span><span class=\"den\">old</span></span> × 100%</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Percent change</strong><p class=\"card-note\">Find an increase or decrease.</p>",
+    "topicIds": [
+      3
+    ],
+    "formulaId": "percent-change",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-quadratic-formula",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">x = <span class=\"frac\"><span class=\"num\">−b ± √(b<sup>2</sup> − 4ac)</span><span class=\"den\">2a</span></span></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Quadratic formula</strong><p class=\"card-note\">Solve a quadratic that does not factor easily.</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "quadratic-formula",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-vertex-form",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">y = a(x − h)<sup>2</sup> + k → vertex (h, k)</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Vertex form</strong><p class=\"card-note\">Find the minimum or maximum of a parabola.</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "vertex-form",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-discriminant",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">D = b<sup>2</sup> − 4ac</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Discriminant</strong><p class=\"card-note\">Count real solutions without solving.</p>",
+    "topicIds": [
+      8
+    ],
+    "formulaId": "discriminant",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-exponential",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">f(x) = a · b<sup>x</sup></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Exponential function</strong><p class=\"card-note\">Model growth or decay.</p>",
+    "topicIds": [
+      9
+    ],
+    "formulaId": "exponential",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-negative-exponent",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">x<sup>−n</sup> = <span class=\"frac\"><span class=\"num\">1</span><span class=\"den\">x<sup>n</sup></span></span></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Negative exponents</strong><p class=\"card-note\">Simplify negative powers.</p>",
+    "topicIds": [
+      10
+    ],
+    "formulaId": "negative-exponent",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-special-45",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">legs: x, x<br>hypotenuse: x√2</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>45-45-90 triangle</strong><p class=\"card-note\">Isosceles right triangles.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "special-45",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-special-30",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">short leg: x<br>long leg: x√3<br>hypotenuse: 2x</span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>30-60-90 triangle</strong><p class=\"card-note\">Right triangles with 30° and 60° angles.</p>",
+    "topicIds": [
+      12
+    ],
+    "formulaId": "special-30",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-sohcahtoa",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">sin θ = <span class=\"frac\"><span class=\"num\">opp</span><span class=\"den\">hyp</span></span><br>cos θ = <span class=\"frac\"><span class=\"num\">adj</span><span class=\"den\">hyp</span></span><br>tan θ = <span class=\"frac\"><span class=\"num\">opp</span><span class=\"den\">adj</span></span></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>SOH-CAH-TOA</strong><p class=\"card-note\">Find a side or angle in a right triangle.</p>",
+    "topicIds": [
+      13
+    ],
+    "formulaId": "sohcahtoa",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-circle-equation",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">(x − h)<sup>2</sup> + (y − k)<sup>2</sup> = r<sup>2</sup></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Circle equation</strong><p class=\"card-note\">Find a circle's center and radius.</p>",
+    "topicIds": [
+      15
+    ],
+    "formulaId": "circle-equation",
+    "type": "reverse"
+  },
+  {
+    "id": "reverse-probability",
+    "deck": "Math Formulas",
+    "front": "<span class=\"math\">P(event) = <span class=\"frac\"><span class=\"num\">favorable outcomes</span><span class=\"den\">total outcomes</span></span></span><p class=\"card-prompt\">What is this formula called, and when do you use it?</p>",
+    "back": "<strong>Probability</strong><p class=\"card-note\">Find the chance of an event.</p>",
+    "topicIds": [
+      20
+    ],
+    "formulaId": "probability",
+    "type": "reverse"
+  },
+  {
+    "id": "concept-1",
+    "deck": "Math Concepts",
+    "front": "How do you solve a basic equation?",
+    "back": "<p>Move all x-terms to one side and numbers to the other. Combine like terms. Divide to get x alone.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-2",
+    "deck": "Math Concepts",
+    "front": "Translate “5 less than x” into math.",
+    "back": "<p>x − 5. The order matters: “less than” reverses the subtraction.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-3",
+    "deck": "Math Concepts",
+    "front": "How do you find “what percent of X is Y”?",
+    "back": "<p>(Y ÷ X) × 100.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-4",
+    "deck": "Math Concepts",
+    "front": "How do you find P% of X?",
+    "back": "<p>(P ÷ 100) × X.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-5",
+    "deck": "Math Concepts",
+    "front": "How do you solve a system by elimination?",
+    "back": "<p>Make one variable's coefficients match or be opposites. Add or subtract to cancel it. Solve, then plug back in.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-6",
+    "deck": "Math Concepts",
+    "front": "When does a system have no solution?",
+    "back": "<p>Same slope, different y-intercept: the lines are parallel.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-7",
+    "deck": "Math Concepts",
+    "front": "When does a system have infinitely many solutions?",
+    "back": "<p>Same slope and same intercept: the equations describe the same line.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-8",
+    "deck": "Math Concepts",
+    "front": "How do you test a point in a system of inequalities?",
+    "back": "<p>Plug it into every inequality separately. It is a solution only if it satisfies all of them.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-9",
+    "deck": "Math Concepts",
+    "front": "What does slope mean?",
+    "back": "<p>Rate of change: rise over run, or (y₂ − y₁) ÷ (x₂ − x₁).</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-10",
+    "deck": "Math Concepts",
+    "front": "What does b mean in y = mx + b?",
+    "back": "<p>The y-intercept: the value of y when x = 0.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-11",
+    "deck": "Math Concepts",
+    "front": "How do you find the vertex of y = ax² + bx + c?",
+    "back": "<p>Use x = −b ÷ (2a), then plug that x back in to find y.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-12",
+    "deck": "Math Concepts",
+    "front": "What does the discriminant tell you?",
+    "back": "<p>Positive: 2 real solutions. Zero: exactly 1 real solution. Negative: no real solutions.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-13",
+    "deck": "Math Concepts",
+    "front": "How do you tell growth from decay in f(x) = a·bˣ?",
+    "back": "<p>b &gt; 1 is growth. 0 &lt; b &lt; 1 is decay.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-14",
+    "deck": "Math Concepts",
+    "front": "How do you solve a square root equation?",
+    "back": "<p>Isolate the square root, square both sides, solve, then check the answer in the original equation.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-15",
+    "deck": "Math Concepts",
+    "front": "How do you solve |expression| = a number?",
+    "back": "<p>Write two equations: expression = a and expression = −a. If a is negative, there is no solution.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-16",
+    "deck": "Math Concepts",
+    "front": "What are the 45-45-90 side ratios?",
+    "back": "<p>Legs are x and x; hypotenuse is x√2.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-17",
+    "deck": "Math Concepts",
+    "front": "What are the 30-60-90 side ratios?",
+    "back": "<p>Short leg x, long leg x√3, hypotenuse 2x.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-18",
+    "deck": "Math Concepts",
+    "front": "How do you choose SOH-CAH-TOA?",
+    "back": "<p>Label the sides from the angle you care about, then pick the ratio that uses the sides you know or want.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-19",
+    "deck": "Math Concepts",
+    "front": "What is true about similar triangles?",
+    "back": "<p>Corresponding angles are equal and corresponding sides are proportional.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-20",
+    "deck": "Math Concepts",
+    "front": "How do you read a circle equation?",
+    "back": "<p>(x − h)² + (y − k)² = r² has center (h, k) and radius r.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-21",
+    "deck": "Math Concepts",
+    "front": "How do you complete the square for a circle?",
+    "back": "<p>Group x-terms and y-terms. Half each middle coefficient, square it, and add it to both sides. Rewrite as perfect squares.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-22",
+    "deck": "Math Concepts",
+    "front": "How do you find surface area when two solids are glued?",
+    "back": "<p>Subtract the glued faces twice: once from each solid.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-23",
+    "deck": "Math Concepts",
+    "front": "What do parallel-line angles do?",
+    "back": "<p>Vertical and corresponding angles are equal. Same-side interior angles add to 180°.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-24",
+    "deck": "Math Concepts",
+    "front": "How do you find mean, median, mode, and range?",
+    "back": "<p>Mean: sum ÷ count. Median: middle after sorting. Mode: most frequent. Range: max − min.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-25",
+    "deck": "Math Concepts",
+    "front": "How do you find a probability from a two-way table?",
+    "back": "<p>Use the count in the category divided by the total for the group the question asks about.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-26",
+    "deck": "Math Concepts",
+    "front": "What does margin of error mean?",
+    "back": "<p>The true value is plausibly between estimate − margin and estimate + margin. It is a range, not an exact number.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-27",
+    "deck": "Math Concepts",
+    "front": "How do you convert units?",
+    "back": "<p>Multiply by conversion factors arranged so the unwanted units cancel.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-28",
+    "deck": "Math Concepts",
+    "front": "How do you read a bar graph?",
+    "back": "<p>Find the category on the bottom axis, trace up to the bar, then across to the value axis.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-29",
+    "deck": "Math Concepts",
+    "front": "What does a line of best fit do?",
+    "back": "<p>It gets closest to the overall trend. It does not need to touch every point.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-30",
+    "deck": "Math Concepts",
+    "front": "What is the best test-day strategy when stuck?",
+    "back": "<p>Plug in the answer choices, starting with B or C. Or pick real numbers for “must be true” questions.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-31",
+    "deck": "Math Concepts",
+    "front": "What should you do before writing a word-problem equation?",
+    "back": "<p>Define the variable and make sure you know what the question is asking for.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "concept-32",
+    "deck": "Math Concepts",
+    "front": "What should you check before locking in an answer?",
+    "back": "<p>Units, the exact quantity requested, and whether the answer makes sense.</p>",
+    "topicIds": [],
+    "type": "concept"
+  },
+  {
+    "id": "rw-1",
+    "deck": "Reading & Writing",
+    "front": "What is a comma splice?",
+    "back": "<p>Two independent clauses joined by only a comma.</p><p>Fix it with a period, a semicolon, or a comma + coordinating conjunction.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-2",
+    "deck": "Reading & Writing",
+    "front": "When should you use a semicolon?",
+    "back": "<p>Between two independent clauses that are closely related.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-3",
+    "deck": "Reading & Writing",
+    "front": "When should you use a colon?",
+    "back": "<p>After an independent clause to introduce a list, explanation, or example.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-4",
+    "deck": "Reading & Writing",
+    "front": "When should you use a dash?",
+    "back": "<p>To add emphasis or a break. A pair of dashes can set off extra information.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-5",
+    "deck": "Reading & Writing",
+    "front": "What is an independent clause?",
+    "back": "<p>A group of words with a subject and verb that can stand alone as a complete sentence.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-6",
+    "deck": "Reading & Writing",
+    "front": "What is a dependent clause?",
+    "back": "<p>A group of words with a subject and verb that cannot stand alone; it needs a main clause.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-7",
+    "deck": "Reading & Writing",
+    "front": "What is a sentence fragment?",
+    "back": "<p>A group of words missing a subject, a verb, or a complete thought.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-8",
+    "deck": "Reading & Writing",
+    "front": "How do you check subject-verb agreement?",
+    "back": "<p>Find the real subject, ignore prepositional phrases, and match singular/plural.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-9",
+    "deck": "Reading & Writing",
+    "front": "How do you check pronoun-antecedent agreement?",
+    "back": "<p>The pronoun must match the noun it refers to in number and person.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-10",
+    "deck": "Reading & Writing",
+    "front": "Who vs. whom?",
+    "back": "<p>Who is a subject (who did it). Whom is an object (to/for whom).</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-11",
+    "deck": "Reading & Writing",
+    "front": "Its vs. it's?",
+    "back": "<p>Its = possessive. It's = it is or it has.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-12",
+    "deck": "Reading & Writing",
+    "front": "Their vs. there vs. they're?",
+    "back": "<p>Their = possessive. There = place. They're = they are.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-13",
+    "deck": "Reading & Writing",
+    "front": "Effect vs. affect?",
+    "back": "<p>Effect is usually a noun. Affect is usually a verb.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-14",
+    "deck": "Reading & Writing",
+    "front": "Transition for contrast?",
+    "back": "<p>However, nevertheless, although, whereas, in contrast.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-15",
+    "deck": "Reading & Writing",
+    "front": "Transition for cause and effect?",
+    "back": "<p>Therefore, consequently, thus, as a result.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-16",
+    "deck": "Reading & Writing",
+    "front": "Transition for addition?",
+    "back": "<p>Moreover, furthermore, in addition, also.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-17",
+    "deck": "Reading & Writing",
+    "front": "Transition for example?",
+    "back": "<p>For example, for instance, specifically.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-18",
+    "deck": "Reading & Writing",
+    "front": "Words-in-context strategy?",
+    "back": "<p>Cover the choices, predict your own word from the sentence, then pick the closest match. Check tone and logic.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-19",
+    "deck": "Reading & Writing",
+    "front": "Command-of-evidence strategy?",
+    "back": "<p>The correct choice must directly support the claim. A true statement that does not support the claim is wrong.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-20",
+    "deck": "Reading & Writing",
+    "front": "Quantitative evidence strategy?",
+    "back": "<p>Read the graph or table carefully. Match the exact trend, value, or comparison the claim needs.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-21",
+    "deck": "Reading & Writing",
+    "front": "Cross-text connections strategy?",
+    "back": "<p>Summarize each text's main claim first, then identify whether they agree, disagree, or qualify each other.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-22",
+    "deck": "Reading & Writing",
+    "front": "Text-structure strategy?",
+    "back": "<p>Ask what each sentence does: introduces a problem, gives evidence, contrasts, or proposes a solution.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-23",
+    "deck": "Reading & Writing",
+    "front": "Rhetorical synthesis strategy?",
+    "back": "<p>Use the bullet notes to accomplish the stated goal. Do not add outside information.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-24",
+    "deck": "Reading & Writing",
+    "front": "Main-idea strategy?",
+    "back": "<p>Ask what the passage is mostly about, not what one detail says.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-25",
+    "deck": "Reading & Writing",
+    "front": "Inference strategy?",
+    "back": "<p>The answer must be supported by the text. Do not choose a reasonable idea that the text never implies.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-26",
+    "deck": "Reading & Writing",
+    "front": "Paired-passage strategy?",
+    "back": "<p>Find the relationship between the authors: agree, disagree, or one qualifies the other.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-27",
+    "deck": "Reading & Writing",
+    "front": "Reading pacing strategy?",
+    "back": "<p>Read for structure and main idea. For evidence questions, go back to the referenced lines.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-28",
+    "deck": "Reading & Writing",
+    "front": "What does “most logical and precise” mean?",
+    "back": "<p>The word must fit the meaning and tone of the sentence, not just sound advanced.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-29",
+    "deck": "Reading & Writing",
+    "front": "How do you handle a grammar question with commas?",
+    "back": "<p>Check whether each comma separates independent clauses, items in a list, or extra information. Remove unnecessary commas.</p>",
+    "topicIds": [],
+    "type": "rw"
+  },
+  {
+    "id": "rw-30",
+    "deck": "Reading & Writing",
+    "front": "What is the safest way to check a transition?",
+    "back": "<p>Identify the relationship between the two sentences first, then choose the transition that matches it.</p>",
+    "topicIds": [],
+    "type": "rw"
+  }
+]
